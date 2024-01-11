@@ -9,6 +9,11 @@ export default function AppLayout() {
             <nav>
                 <ul>
                 <li>
+                    <NavLink to={ROUTES.home()} >
+                    Home
+                    </NavLink>
+                </li>
+                <li>
                     <NavLink to={ROUTES.about()} >
                     About
                     </NavLink>
