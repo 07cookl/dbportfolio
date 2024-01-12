@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import homeImage from "../../resources/homeImage.png";
 
 export default function Footer() {
     return (
-        <Footer className={styles.footer} >
+        <footer className={styles.footer} >
             <p>Daniel Blackman</p>
-            <p>House Image</p>
+            <img src={homeImage} alt="Return to home page" />
             <p>Designer</p>
-        </Footer>
+        </footer>
     )
 }

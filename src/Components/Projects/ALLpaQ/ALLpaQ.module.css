@@ -1,4 +1,52 @@
-video {
-    max-width: 80vw;
-    max-height: 100vh;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ALLpaQInfo {
+    display: flex;
+    gap: 120px;
+    font-family: Inter, sans-serif;
+}
+
+.ALLpaQHeading h1 {
+    font-family: Acumin Pro Wide, sans-serif;
+    font-size: 94px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.ALLpaQHeading h3 {
+    color: rgba(241, 241, 241, 0.80);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.ALLpaQOverview h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 42px;
+}
+
+.ALLpaQOverview p {
+    width: 530px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ALLpaQOverview a {
+    color: #FFA31A;
+}
+
+video, img {
+    max-width: 100vw;
+}
+
+.rocksImg {
+    width: 1800px;
+    margin-left: 800px;
 }
