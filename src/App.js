@@ -9,6 +9,7 @@ import About from "./components/About/About";
 import Work from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
+import ALLpaQ from './components/Projects/ALLpaQ/ALLpaQ';
 
 export default function App() {
   return (
@@ -16,9 +17,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<AppLayout/>}>
           <Route path="/" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/work" element={<Work/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="about" element={<About/>}/>
+          <Route path="work" element={<Work/>}/>
+          <Route path="work/ALLpaQ" element={<ALLpaQ/>}/>
+          <Route path="contact" element={<Contact/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

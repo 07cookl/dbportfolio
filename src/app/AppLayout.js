@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, NavLink } from "react-router-dom";
 import ROUTES from "./routes";
+import Footer from "../components/Footer/Footer";
 
 
 export default function AppLayout() {
@@ -31,6 +32,7 @@ export default function AppLayout() {
                 </ul>
             </nav>
             <Outlet/>
+            <Footer />
         </div>
     );
 }
