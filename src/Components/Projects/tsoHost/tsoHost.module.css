@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.tsoHostInfo {
+    display: flex;
+    gap: 120px;
+    font-family: Inter, sans-serif;
+}
+
+.tsoHostHeading h1 {
+    font-family: Acumin Pro Wide, sans-serif;
+    font-size: 94px;
+    margin: 0;
+    font-weight: 900;
+    color: #0D0D0D
+}
+
+.tsoHostHeading h3 {
+    color: rgba(13, 13, 13, 0.80);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.tsoHostOverview h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 42px;
+    color: #0D0D0D
+}
+
+.tsoHostOverview p {
+    width: 530px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0D0D0D
+}
+
+.tsoHostOverview a {
+    color: #FFA31A;
+}
+
+video, img {
+    max-width: 90vw;
+}
+
+.billboard {
+    align-self: flex-start;
+}

@@ -3,10 +3,11 @@ import { Outlet, NavLink } from "react-router-dom";
 import ROUTES from "./routes";
 
 
-export default function AppLayout() {
+export default function AppLayout({ mode }) {
+
     return (
-        <div>
-            <nav>
+        <div className={mode}>
+            <nav className={mode}>
                 <ul>
                 <li>
                     <NavLink to={ROUTES.home()} >

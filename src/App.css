@@ -30,15 +30,12 @@
 }
 
 * {
-  background-color: #0D0D0D;
   color: #F1F1F1;
   overflow-x: hidden;
 }
 
 nav {
   padding: 8px 0px;
-  border-top: 1px solid #F1F1F1;
-  border-bottom: 1px solid #F1F1F1;
   margin-top: 48px;
   font-family: Inter, sans-serif;
   font-size: 20px;
@@ -49,6 +46,7 @@ nav ul {
   gap: 30px;
   justify-content: center;
   list-style: none;
+  padding-left: 0;
 }
 
 nav a {
@@ -57,4 +55,32 @@ nav a {
 
 nav a:focus {
   color: #FFA31A;
+}
+
+.dark {
+  background-color: #0D0D0D;
+  border-top: 1px solid #F1F1F1;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.dark ul, .dark li {
+  background-color: #0D0D0D;
+}
+
+.dark a {
+  color: #F1F1F1;
+}
+
+.light {
+  background-color: #fff;
+  border-top: 1px solid #0D0D0D;
+  border-bottom: 1px solid #0D0D0D;
+}
+
+.light ul, .light li {
+  background-color: #fff;
+}
+
+.light a {
+  color: #0D0D0D;
 }

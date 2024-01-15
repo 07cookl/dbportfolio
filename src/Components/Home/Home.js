@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./Home.module.css";
 
-export default function Home() {
+export default function Home({ setMode }) {
+
+    setMode("dark");
+    
     return (
         <h1 className={styles.header}>This is the home page.</h1>
     )

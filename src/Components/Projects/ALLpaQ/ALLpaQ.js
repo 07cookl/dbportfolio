@@ -6,7 +6,10 @@ import ALLpaQ404 from "../../../resources/ALLpaQ/ALLpaQ-404-service-container-pa
 import Footer from "../../Footer/Footer";
 import styles from "./ALLpaQ.module.css";
 
-export default function ALLpaQ() {
+export default function ALLpaQ({ setMode }) {
+
+    setMode("dark");
+    
     return (
         <section className={styles.container}>
         <video src={ALLpaQWebsiteCaseStudyHeader} autoPlay loop muted />
@@ -30,7 +33,7 @@ export default function ALLpaQ() {
         {/* <video src={ALLpaQPhones} autoPlay loop muted /> */}
         <img loading="lazy" src={ALLpaQLongImageImg} />
         <img loading="lazy" src={ALLpaQLaptopImg} />
-        <Footer />
+        <Footer mode="light" />
         </section>
     )
 }
