@@ -53,7 +53,15 @@ nav a {
   text-decoration: none;
 }
 
-nav a:focus {
+.darkLink:hover {
+  color: rgba(13, 13, 13, 0.75);
+}
+
+.lightLink:hover {
+  color: rgba(256, 256, 256, 0.80);
+}
+
+nav a:focus, nav a.active {
   color: #FFA31A;
 }
 
@@ -83,4 +91,20 @@ nav a:focus {
 
 .light a {
   color: #0D0D0D;
+}
+
+.darkTextHeading {
+  color: rgba(13, 13, 13, 0.8);
+}
+
+.lightTextHeading {
+  color: rgba(241, 241, 241, 0.80);
+}
+
+.darkText {
+  color:#0D0D0D;
+}
+
+.lightText {
+  color: #fff;
 }

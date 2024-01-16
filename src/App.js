@@ -23,16 +23,16 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<AppLayout mode={mode}/>}>
+        <Route path="/" element={<AppLayout mode={mode} setMode={setMode}/>}>
           <Route path="/" element={<Home setMode={setMode}/>}/>
           <Route path="about" element={<About setMode={setMode}/>}/>
           <Route path="work" element={<Work setMode={setMode}/>}/>
-          <Route path="work/ALLpaQ" element={<ALLpaQ setMode={setMode}/>}/>
-          <Route path="work/tsoHost" element={<TsoHost setMode={setMode}/>}/>
-          <Route path="work/CMA" element={<CMA setMode={setMode}/>}/>
-          <Route path="work/fundomundo" element={<Fundomundo setMode={setMode}/>}/>
-          <Route path="work/TheWomensExchange" element={<TheWomensExchange setMode={setMode}/>}/>
-          <Route path="work/APE" element={<APE setMode={setMode}/>}/>
+          <Route path="work/ALLpaQ" element={<ALLpaQ mode={mode}/>}/>
+          <Route path="work/tsoHost" element={<TsoHost mode={mode}/>}/>
+          <Route path="work/CMA" element={<CMA mode={mode}/>}/>
+          <Route path="work/fundomundo" element={<Fundomundo mode={mode}/>}/>
+          <Route path="work/TheWomensExchange" element={<TheWomensExchange mode={mode}/>}/>
+          <Route path="work/APE" element={<APE mode={mode}/>}/>
           <Route path="contact" element={<Contact setMode={setMode}/>}/>
         </Route>
       </Routes>

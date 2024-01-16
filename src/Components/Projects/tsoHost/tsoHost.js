@@ -5,21 +5,22 @@ import tsoHostSubwayBillboard from "../../../resources/tsoHost/Subway Billboard 
 import tsoHostDEPMockup from "../../../resources/tsoHost/tsoHOST_DEP_Mockup 2.mp4";
 import Footer from "../../Footer/Footer";
 
-export default function TsoHost({ setMode }) {
+export default function TsoHost({ mode, setMode }) {
 
-    setMode("light");
+    const textClass = mode === "light" ? "darkText" : "lightText";
+    const textHeadingClass = mode === "light" ? "darkTextHeading" : "lightTextHeading";
 
     return (
         <section className={styles.container}>
             <img src={"tsoHostLaptop"} alt="Laptop displaying tsoHost work" />
             <section className={styles.tsoHostInfo}>
                 <div className={styles.tsoHostHeading}>
-                    <h1>tsoHost</h1>
-                    <h3>Web / Graphic Design / Video / Motion Graphics</h3>
+                    <h1 className={textClass}>tsoHost</h1>
+                    <h3 className={textHeadingClass}>Web / Graphic Design / Video / Motion Graphics</h3>
                 </div>
                 <div className={styles.tsoHostOverview}>
-                    <h3>Overview</h3>
-                    <p>Our time working with tsoHost started with us having the opportunity to take what they had as a brand and completely revamp it for a new approach to their social media marketing. <br />
+                    <h3 className={textClass}>Overview</h3>
+                    <p className={textClass}>Our time working with tsoHost started with us having the opportunity to take what they had as a brand and completely revamp it for a new approach to their social media marketing. <br />
                     <br />
                     Over time as they expanded those marketing efforts outside of their social media presence, we worked with them to define a more consistent visual style that would reinforce brand recognition in those busier, more competitive contexts.
                     {/* <br /> */}

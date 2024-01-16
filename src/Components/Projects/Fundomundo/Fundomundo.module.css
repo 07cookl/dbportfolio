@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundomundoInfo {
+    display: flex;
+    gap: 120px;
+    font-family: Inter, sans-serif;
+}
+
+.fundomundoHeading h1 {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 64px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.fundomundoHeading h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.fundomundoOverview h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 42px;
+}
+
+.fundomundoOverview p {
+    width: 530px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fundomundoOverview a {
+    color: #FFA31A;
+}
+
+.container video, .container img {
+    max-width: 90vw;
+}
