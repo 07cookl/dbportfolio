@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./CMA.module.css";
 import Footer from "../../Footer/Footer";
 
-export default function CMA({ mode }) {
+export default function CMA({ mode, setMode }) {
 
     const textClass = mode === "light" ? "darkText" : "lightText";
     const textHeadingClass = mode === "light" ? "darkTextHeading" : "lightTextHeading";
+
+    useEffect(() => {
+        setMode("dark");
+    },[])
 
     return (
         <section className={styles.container}>

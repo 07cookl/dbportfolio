@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./APE.module.css";
 import Footer from "../../Footer/Footer";
 
-export default function APE({ mode }) {
+export default function APE({ mode, setMode }) {
 
     const textClass = mode === "light" ? "darkText" : "lightText";
     const textHeadingClass = mode === "light" ? "darkTextHeading" : "lightTextHeading";
+
+    useEffect(() => {
+        setMode("light");
+    },[])
 
     return (
         <section className={styles.container}>

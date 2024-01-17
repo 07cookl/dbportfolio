@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { ALLpaQLaptopImg, ALLpaQLongImageImg, ALLpaQ3dMockupRocksImg } from "../../../util/images";
 import ALLpaQWebsiteCaseStudyHeader from "../../../resources/ALLpaQ/ALLpaQWebsite-CaseStudyHeader.mp4";
 import ALLpaQ404 from "../../../resources/ALLpaQ/ALLpaQ-404-service-container-page-showcase-1.mp4";
@@ -6,10 +6,14 @@ import ALLpaQ404 from "../../../resources/ALLpaQ/ALLpaQ-404-service-container-pa
 import Footer from "../../Footer/Footer";
 import styles from "./ALLpaQ.module.css";
 
-export default function ALLpaQ({ mode }) {
+export default function ALLpaQ({ mode, setMode }) {
 
     const textClass = mode === "light" ? "darkText" : "lightText";
     const textHeadingClass = mode === "light" ? "darkTextHeading" : "lightTextHeading";
+
+    useEffect(() => {
+        setMode("dark");
+    },[])
     
     return (
         <section className={styles.container}>

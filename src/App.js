@@ -24,16 +24,16 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<AppLayout mode={mode} setMode={setMode}/>}>
-          <Route path="/" element={<Home setMode={setMode}/>}/>
-          <Route path="about" element={<About setMode={setMode}/>}/>
-          <Route path="work" element={<Work setMode={setMode}/>}/>
-          <Route path="work/ALLpaQ" element={<ALLpaQ mode={mode}/>}/>
-          <Route path="work/tsoHost" element={<TsoHost mode={mode}/>}/>
-          <Route path="work/CMA" element={<CMA mode={mode}/>}/>
-          <Route path="work/fundomundo" element={<Fundomundo mode={mode}/>}/>
-          <Route path="work/TheWomensExchange" element={<TheWomensExchange mode={mode}/>}/>
-          <Route path="work/APE" element={<APE mode={mode}/>}/>
-          <Route path="contact" element={<Contact setMode={setMode}/>}/>
+          <Route path="/" element={<Home mode={mode} setMode={setMode}/>}/>
+          <Route path="about" element={<About mode={mode} setMode={setMode}/>}/>
+          <Route path="work" element={<Work mode={mode} setMode={setMode}/>}/>
+          <Route path="work/ALLpaQ" element={<ALLpaQ mode={mode} setMode={setMode}/>}/>
+          <Route path="work/tsoHost" element={<TsoHost mode={mode} setMode={setMode}/>}/>
+          <Route path="work/CMA" element={<CMA mode={mode} setMode={setMode}/>}/>
+          <Route path="work/fundomundo" element={<Fundomundo mode={mode} setMode={setMode}/>}/>
+          <Route path="work/TheWomensExchange" element={<TheWomensExchange mode={mode} setMode={setMode}/>}/>
+          <Route path="work/APE" element={<APE mode={mode} setMode={setMode}/>}/>
+          <Route path="contact" element={<Contact mode={mode} setMode={setMode}/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

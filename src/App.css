@@ -54,11 +54,11 @@ nav a {
 }
 
 .darkLink:hover {
-  color: rgba(13, 13, 13, 0.75);
+  color: rgba(13, 13, 13, 0.8);
 }
 
 .lightLink:hover {
-  color: rgba(256, 256, 256, 0.80);
+  color: rgba(256, 256, 256, 0.8);
 }
 
 nav a:focus, nav a.active {
@@ -80,13 +80,13 @@ nav a:focus, nav a.active {
 }
 
 .light {
-  background-color: #fff;
+  background-color: #F1F1F1;
   border-top: 1px solid #0D0D0D;
   border-bottom: 1px solid #0D0D0D;
 }
 
 .light ul, .light li {
-  background-color: #fff;
+  background-color: #F1F1F1;
 }
 
 .light a {
@@ -106,5 +106,13 @@ nav a:focus, nav a.active {
 }
 
 .lightText {
-  color: #fff;
+  color: #F1F1F1;
+}
+
+.footerLight {
+  color: #F1F1F1;
+}
+
+.footerDark {
+  color: #0D0D0D;
 }

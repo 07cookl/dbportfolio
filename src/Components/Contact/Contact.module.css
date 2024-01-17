@@ -1,0 +1,71 @@
+.container {
+    width: 100vw;
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+}
+
+.container h1 {
+    font-size: 94px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 700;
+    margin: 64px 0 50px 50px;
+}
+
+.cv {
+    border-top: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    color: rgba(241, 241, 241, 0.8);
+    padding: 40px 0 40px 50px;
+}
+
+.contactInfo {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 100vw;
+}
+
+.contacts {
+    border-right: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    padding: 36px 0 36px 50px;
+    color: rgba(241, 241, 241, 0.8);
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 24px;
+}
+
+.contacts p, .socials p {
+    margin: 0;
+    color: rgba(241, 241, 241, 0.8);
+}
+
+.contacts a:hover, .socials a:hover {
+    color: rgba(241, 241, 241, 0.6);
+}
+
+.contacts strong, .socials strong {
+    color: #F1F1F1;
+}
+
+.socials {
+    border-left: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    padding: 36px 0 36px 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+}
+
+.contacts a, .socials a {
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
+    font-size: 14px;
+}
