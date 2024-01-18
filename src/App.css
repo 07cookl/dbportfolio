@@ -116,3 +116,7 @@ nav a:focus, nav a.active {
 .footerDark {
   color: #0D0D0D;
 }
+
+.bodyContainer {
+  border: none;
+}

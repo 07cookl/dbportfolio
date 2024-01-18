@@ -8,7 +8,7 @@ export default function AppLayout({ mode }) {
     const linkClass = mode === "light" ? "darkLink" : "lightLink"
 
     return (
-        <div className={mode}>
+        <div className={`${mode} bodyContainer`}>
             <nav className={mode}>
                 <ul>
                 <li>

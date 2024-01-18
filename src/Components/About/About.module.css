@@ -1,0 +1,80 @@
+.container {
+    width: 100vw;
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+}
+
+.container a {
+    color: #FFA31A;
+}
+
+.container h1 {
+    font-size: 94px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 700;
+    margin: 64px 0 50px 50px;
+}
+
+.aboutInfo {
+    display: grid;
+    width: 100vw;
+}
+
+.experience {
+    border-top: 1px solid #F1F1F1;
+    border-right: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    padding: 40px 0 32px 50px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.expertise {
+    border-top: 1px solid #F1F1F1;
+    border-left: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    padding: 40px 0 32px 50px;
+    grid-column: 2 / 20;
+    grid-row: 1 / 2;
+}
+
+.education {
+    border-top: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    padding: 40px 0 32px 50px;
+    grid-column: 1 / 20;
+    grid-row: 2 / 3;
+}
+
+.experience h3,
+.expertise h3,
+.education h3 {
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.experience p {
+    width: 400px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.expertise ul,
+.education ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.expertise ul li,
+.education ul li {
+    list-style: none;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer {
+    width: 100vw;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
