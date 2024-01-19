@@ -14,23 +14,46 @@
     margin-top: 56px;
 }
 
+.heading {
+    display: none;
+    position: relative;
+    padding: 24px;
+    width: inherit;
+    bottom: 60vh;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(241, 241, 241);
+    overflow: hidden;
+}
+
 .caption {
     display: none;
-    background: rgb(0,0,0,0.4);
-    position: relative;
-    padding: 16px;
+    position: absolute;
+    bottom: 20vh;
     width: inherit;
-    bottom: 160px;
-    font-size: 48px;
-    color: rgba(241, 241, 241, 0.8);
     text-wrap: nowrap;
-    overflow: hidden;
+}
+
+.caption hr {
+    width: 24px;
+    margin-left: 24px;
+}
+
+.caption ul {
+    padding-left: 24px;
+    background-color: transparent;
+}
+
+.caption ul li {
+    background-color: transparent;
+    font-size: 24px;
+    font-family: Inter, sans-serif;
 }
 
 .project {
     height: 60vh;
     width: 100px;
-    margin: 0 0.5rem;
+    margin: 0 24px;
     transition: width 1s ease-in-out;
     cursor: pointer;
     overflow-y: hidden;
@@ -44,7 +67,7 @@
     overflow-y: hidden;
 }
 
-.project:hover > .caption {
+.project:hover > .heading, .project:hover > .caption {
     display: block;
 }
 
@@ -53,6 +76,23 @@
     width: 100%;
     object-fit:cover;
     filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition: filter 1s ease-in-out;
+}
+
+.project:hover img {
+    filter: none !important;
+    -webkit-filter: none !important;
+    transition: filter 1s ease-in-out;
+}
+
+.darkText, .darkText ul li {
+    color: rgb(13, 13, 13);
+}
+
+.darkText hr {
+    background-color: rgb(13, 13, 13);
+    border-color: rgb(13, 13, 13);
 }
 
 .footer {

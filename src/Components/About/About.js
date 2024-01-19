@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./About.module.css";
 import Footer from "../Footer/Footer";
+import { workImages } from "../../util/images";
 
 export default function About({ mode, setMode }) {
 
@@ -35,6 +36,7 @@ export default function About({ mode, setMode }) {
                     </ul>
                 </div>
             </div>
+            <img className={styles.palletteImage} src={workImages[5].src} alt=""/>
             <div className={styles.footer}>
                 <Footer mode={mode}/>
             </div>

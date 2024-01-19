@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Contact.module.css";
 import Footer from "../Footer/Footer";
+import { workImages } from "../../util/images";
 
 export default function Contact({ mode, setMode }) {
 
@@ -26,6 +27,7 @@ export default function Contact({ mode, setMode }) {
                     <p><strong><a href="https://www.instagram.com/danielblackmandesign/">Instagram</a></strong></p>
                 </div>
             </div>
+            <img className={styles.palletteImage} src={workImages[5].src} alt=""/>
             <div className={styles.footer}>
                 <Footer mode={mode} />
             </div>

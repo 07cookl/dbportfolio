@@ -15,7 +15,7 @@ export default function APE({ mode, setMode }) {
         <section className={styles.container}>
             <section className={styles.APEInfo}>
                 <div className={styles.APEHeading}>
-                    <h1 className={textClass}>APE</h1>
+                    <h1 className={textClass}>ALLpaQ<br/>Plastic<br/>Engineering</h1>
                     <h3 className={textHeadingClass}>Web / Graphic Design / Branding</h3>
                 </div>
                 <div className={styles.APEOverview}>

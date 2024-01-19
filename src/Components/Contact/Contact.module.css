@@ -11,6 +11,15 @@
     margin: 64px 0 50px 50px;
 }
 
+.palletteImage {
+    position: absolute;
+    height: 70vh;
+    width: 30vw;
+    top: 22.5vh;
+    right: 7.5vw;
+    border: 1px solid #F1F1F1;
+}
+
 .cv {
     border-top: 1px solid #F1F1F1;
     border-bottom: 1px solid #F1F1F1;

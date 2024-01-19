@@ -1,3 +1,55 @@
 .header {
+    width: 100vw;
+    background: center / contain no-repeat url("../../resources/Home/HeroImage.png");
+}
+
+.header ul {
+    padding: 136px 120px;
+    background-color: transparent;
+    list-style: none;
+}
+
+.header ul li {
     font-family: 'Clash Display', sans-serif;
+    font-size: 200px;
+    background-color: transparent;
+    overflow-y: hidden;
+    line-height: 0.8;
+    font-weight: 300;
+}
+
+.header ul li:last-child {
+    font-weight: 700;
+    height: 200px;
+}
+
+.tickerWrapper {
+    display: flex;
+    width: 100vw;
+}
+
+.tickerContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100vw;
+    overflow-x: visible;
+    padding-right: 40px;
+    animation: marquee 10s linear infinite;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    gap: 40px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
 }
