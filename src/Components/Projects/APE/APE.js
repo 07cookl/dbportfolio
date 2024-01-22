@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./APE.module.css";
 import Footer from "../../Footer/Footer";
+import ScrollToTopBtn from "../../../util/scrollToTopBtn";
 
 export default function APE({ mode, setMode }) {
 
@@ -30,5 +31,6 @@ export default function APE({ mode, setMode }) {
                 </div>
             </section>
             <Footer mode={mode} />
+            <ScrollToTopBtn mode={mode} />
         </section>    )
 };

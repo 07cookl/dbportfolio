@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Fundomundo.module.css";
 import Footer from "../../Footer/Footer";
+import ScrollToTopBtn from "../../../util/scrollToTopBtn";
 
 export default function Fundomundo( { mode, setMode }) {
 
@@ -27,6 +28,7 @@ export default function Fundomundo( { mode, setMode }) {
                 </div>
             </section>
             <Footer mode={mode} />
+            <ScrollToTopBtn mode={mode} />
         </section>
     )
 };

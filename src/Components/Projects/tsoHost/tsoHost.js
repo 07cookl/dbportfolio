@@ -5,6 +5,7 @@ import tsoHostSubwayBillboard from "../../../resources/tsoHost/Subway Billboard 
 import tsoHostDEPMockup from "../../../resources/tsoHost/tsoHOST_DEP_Mockup 2.mp4";
 import Footer from "../../Footer/Footer";
 import { workImages } from "../../../util/images";
+import ScrollToTopBtn from "../../../util/scrollToTopBtn";
 
 export default function TsoHost({ mode, setMode }) {
 
@@ -36,6 +37,7 @@ export default function TsoHost({ mode, setMode }) {
             <img src={tsoHostDisplayAdsImg} alt="tsoHost display ads on laptop" />
             <video src={tsoHostDEPMockup} autoPlay loop muted />
             <Footer mode={mode}/>
+            <ScrollToTopBtn mode={mode} />
         </section>
     )
 }

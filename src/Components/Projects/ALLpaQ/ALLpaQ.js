@@ -5,6 +5,7 @@ import ALLpaQ404 from "../../../resources/ALLpaQ/ALLpaQ-404-service-container-pa
 // import ALLpaQPhones from "../../../resources/ALLpaQ/AllpaQPhones.mp4";
 import Footer from "../../Footer/Footer";
 import styles from "./ALLpaQ.module.css";
+import ScrollToTopBtn from "../../../util/scrollToTopBtn";
 
 export default function ALLpaQ({ mode, setMode }) {
 
@@ -39,6 +40,7 @@ export default function ALLpaQ({ mode, setMode }) {
             <img src={ALLpaQLongImageImg} />
             <img src={ALLpaQLaptopImg} />
             <Footer mode={mode} />
+            <ScrollToTopBtn mode={mode} />
         </section>
     )
 }

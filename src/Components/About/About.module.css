@@ -82,8 +82,10 @@
 }
 
 .footer {
-    width: 100vw;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
     font-size: 14px;
-    display: flex;
-    justify-content: center;
+    font-family: Inter, sans-serif;
 }

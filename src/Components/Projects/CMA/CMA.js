@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./CMA.module.css";
 import Footer from "../../Footer/Footer";
+import ScrollToTopBtn from "../../../util/scrollToTopBtn";
 
 export default function CMA({ mode, setMode }) {
 
@@ -30,6 +31,7 @@ export default function CMA({ mode, setMode }) {
                 </div>
             </section>
             <Footer mode={mode} />
+            <ScrollToTopBtn mode={mode} />
         </section>    
     )
 };
