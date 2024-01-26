@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./About.module.css";
 import Footer from "../Footer/Footer";
 import { workImages } from "../../util/images";
+import ScrollToTopBtn from "../../util/scrollToTopBtn";
 
 export default function About({ mode, setMode }) {
 
@@ -37,9 +38,8 @@ export default function About({ mode, setMode }) {
                 </div>
             </div>
             <img className={styles.palletteImage} src={workImages[5].src} alt=""/>
-            <div className={styles.footer}>
-                <Footer mode={mode}/>
-            </div>
+            <Footer mode={mode}/>
+            <ScrollToTopBtn mode={mode} />
         </section>
     )
 };

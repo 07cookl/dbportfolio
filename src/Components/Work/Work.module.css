@@ -14,6 +14,10 @@
     margin-top: 56px;
 }
 
+.cardsContainer a {
+    text-decoration: none;
+}
+
 .heading {
     display: none;
     position: relative;
@@ -29,7 +33,7 @@
 .caption {
     display: none;
     position: absolute;
-    bottom: 20vh;
+    top: 550px;
     width: inherit;
     text-wrap: nowrap;
 }
@@ -51,7 +55,7 @@
 }
 
 .project {
-    height: 60vh;
+    height: 500px;
     width: 100px;
     margin: 0 24px;
     transition: width 1s ease-in-out;
@@ -60,8 +64,8 @@
 }
 
 .project:hover {
-    width: 800px;
-    height: 60vh;
+    width: 400px;
+    height: 500px;
     margin: 0 24px;
     transition: width 1s ease-in-out;
     overflow-y: hidden;

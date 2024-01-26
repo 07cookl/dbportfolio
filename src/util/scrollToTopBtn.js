@@ -19,8 +19,16 @@ export default function ScrollToTopBtn({ mode }) {
         })
     }
 
+    window.onscroll = function() {
+        if (window.scrollY >= 500) {
+            document.getElementById('backToTop').style.visibility="visible"
+        } else {
+            document.getElementById('backToTop').style.visibility="hidden";
+        }
+    };
+
     return (
-        <button className={styles.scrollBtn} style={{ border : `1px solid ${borderColor}`, backgroundColor : backgroundColor }} onClick={handleClick}>
+        <button id="backToTop" className={styles.scrollBtn} style={{ border : `1px solid ${borderColor}`, backgroundColor : backgroundColor }} onClick={handleClick}>
             <img src={arrow} alt="scroll" onClick={handleClick} />
         </button>
     )

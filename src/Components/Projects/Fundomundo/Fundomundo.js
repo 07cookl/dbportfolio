@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./Fundomundo.module.css";
 import Footer from "../../Footer/Footer";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
+import { FundoDesktopGroupImg, FundoLaptopImg, FundoLongGroupImg, FundoMobileGroupImg, FundoOpenLaptopImg } from "../../../util/images";
 
 export default function Fundomundo( { mode, setMode }) {
 
@@ -27,6 +28,11 @@ export default function Fundomundo( { mode, setMode }) {
                     </p>
                 </div>
             </section>
+            <img src={FundoLongGroupImg} alt="Examples of Fundomundo work" />
+            <img src={FundoOpenLaptopImg} style={{ maxWidth: "100vw" }} alt="Laptop with example of Fundomundo work" />
+            <img src={FundoDesktopGroupImg} alt="Examples of Fundomundo desktop work" />
+            <img src={FundoLaptopImg} style={{ marginTop: "100px" }} alt="" />
+            <img src={FundoMobileGroupImg} alt="Examples of Fundomundo mobile work" />
             <Footer mode={mode} />
             <ScrollToTopBtn mode={mode} />
         </section>

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./Contact.module.css";
 import Footer from "../Footer/Footer";
 import { workImages } from "../../util/images";
+import ScrollToTopBtn from "../../util/scrollToTopBtn";
 
 export default function Contact({ mode, setMode }) {
 
@@ -31,6 +32,7 @@ export default function Contact({ mode, setMode }) {
             <div className={styles.footer}>
                 <Footer mode={mode} />
             </div>
+            <ScrollToTopBtn mode={mode} />
         </section>
     )
 };

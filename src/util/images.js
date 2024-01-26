@@ -4,12 +4,31 @@ import ALLpaQLaptop01 from "../resources/ALLpaQ/Laptop 01 1.png";
 import tsoHostDisplayAds from "../resources/tsoHost/GWD-DisplayAds - Copy.png";
 import tsoHostNewspaper from "../resources/tsoHost/tsohost-newpaper-OOH-Mock - Copy.png";
 import tsoHostCarousel from "../resources/tsoHost/tsoHost-OOH-Carousel.gif";
-import workALLpaQ from "../resources/Work/Wild Forest.jpg";
-import workTsoHost from "../resources/Work/Sunny Beach.jpg";
-import workCMA from "../resources/Work/City In Winter.webp";
-import workFundomundo from "../resources/Work/Explore The World.jpg";
-import workTWE from "../resources/Work/Mountains Clouds.jpg";
-import workAPE from "../resources/Work/Beach2.JPEG";
+import workALLpaQ from "../resources/Work/ALLpaQPreview.png";
+import workTsoHost from "../resources/Work/tsoHostPreview.png";
+import workCMA from "../resources/Work/CMAPreview.png";
+import workFundomundo from "../resources/Work/FundomundoPreview.png";
+import workTWE from "../resources/Work/TWEPreview.png";
+import workAPE from "../resources/Work/APEPreview.png";
+import APEGroupBottom from "../resources/APE/APE Bottom Group.png";
+import APEGroupLong from "../resources/APE/APE Long Group.png";
+import CMAAmazon from "../resources/CMA/amazonWinner.png";
+import CMAArcade from "../resources/CMA/arcadeMachine.png";
+import CMANike from "../resources/CMA/nikeAirMaccies-cmaLogo.png";
+import CMAPink from "../resources/CMA/unique 1.png";
+import CMAWaves from "../resources/CMA/waves.png";
+import CMANineGrid from "../resources/CMA/CMANineGrid.png";
+import CMALaptopHero from "../resources/CMA/CMALaptopHero.png";
+import CMATwoLaptops from "../resources/CMA/CmaTwoLaptops.png";
+import CMAEmail from "../resources/CMA/CMAEmail.png";
+import CMAToast from "../resources/CMA/CMA_GrimsbyBornAndToast.png";
+import FundoDesktopGroup from "../resources/fundomundo/Fundo Desktop Group.png";
+import FundoLongGroup from "../resources/fundomundo/Fundo Long Group.png";
+import FundoMobileGroup from "../resources/fundomundo/Fundo Mobile Group.png";
+import FundoOpenLaptop from "../resources/fundomundo/Fundo Open Laptop.png";
+import FundoLaptop from "../resources/fundomundo/FundoLaptop.png";
+import TWEGroup from "../resources/TheWomensExchange/TWEGroup.png";
+import TWELaptop from "../resources/TheWomensExchange/TWELaptop.png";
 
 export const ALLpaQLaptopImg = ALLpaQLaptop01;
 export const ALLpaQ3dMockupRocksImg = ALLpaQ3dMockupRocks;
@@ -26,4 +45,27 @@ export const workImages = [
     { src: workFundomundo, caption: "Fundomundo"},
     { src: workTWE, caption: "The Women's Exchange"},
     { src: workAPE, caption: "APE"}
-]
+];
+
+export const APEGroupBottomImg = APEGroupBottom;
+export const APEGroupLongImg = APEGroupLong;
+
+export const CMAAmazonImg = CMAAmazon;
+export const CMAArcadeImg = CMAArcade;
+export const CMANikeImg = CMANike;
+export const CMAPinkImg = CMAPink;
+export const CMAWavesImg = CMAWaves;
+export const CMANineGridImg = CMANineGrid;
+export const CMALaptopHeroImg = CMALaptopHero;
+export const CMATwoLaptopsImg = CMATwoLaptops;
+export const CMAEmailImg = CMAEmail;
+export const CMAToastImg = CMAToast;
+
+export const FundoDesktopGroupImg = FundoDesktopGroup;
+export const FundoLongGroupImg = FundoLongGroup;
+export const FundoMobileGroupImg = FundoMobileGroup;
+export const FundoOpenLaptopImg = FundoOpenLaptop;
+export const FundoLaptopImg = FundoLaptop;
+
+export const TWEGroupImg = TWEGroup;
+export const TWELaptopImg = TWELaptop;

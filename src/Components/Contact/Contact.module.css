@@ -13,10 +13,10 @@
 
 .palletteImage {
     position: absolute;
-    height: 70vh;
+    height: 60%;
     width: 30vw;
-    top: 22.5vh;
-    right: 7.5vw;
+    top: 200px;
+    right: 100px;
     border: 1px solid #F1F1F1;
 }
 

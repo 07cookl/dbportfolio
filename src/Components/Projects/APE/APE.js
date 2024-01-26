@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./APE.module.css";
 import Footer from "../../Footer/Footer";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
+import { APEGroupBottomImg, APEGroupLongImg } from "../../../util/images";
 
 export default function APE({ mode, setMode }) {
 
@@ -30,6 +31,8 @@ export default function APE({ mode, setMode }) {
                     </p>
                 </div>
             </section>
+            <img src={APEGroupLongImg} style={{ marginBottom: "24px" }}alt="Examples of work done for APE" />
+            <img src={APEGroupBottomImg} alt="Example of work done for APE" />
             <Footer mode={mode} />
             <ScrollToTopBtn mode={mode} />
         </section>    )

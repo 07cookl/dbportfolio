@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header {
     width: 100vw;
     background: center / contain no-repeat url("../../resources/Home/HeroImage.png");
@@ -23,6 +29,49 @@
     height: 200px;
 }
 
+.intro {
+    font-size: 32px;
+    font-family: 'Clash Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+
+.quote {
+    display: flex;
+    gap: 16px;
+    overflow: visible;
+}
+
+.quote p {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    width: 496px;
+    text-indent: -52px;
+    overflow: visible;
+}
+
+.quote p span {
+    font-size: 128px;
+    line-height: 0.5;
+}
+
+.seeMoreBtn {
+    width: Hug (183px);
+    height: Hug (46px);
+    padding: 8px 32px 8px 32px;
+    border-radius: 180px;
+    border: 2px solid #F1F1F1;
+    background-color: #0D0D0D;
+    font-size: 24px;
+    font-family: 'Clash Display', sans-serif;
+    cursor: pointer;
+    margin: 112px 0;
+}
+
 .tickerWrapper {
     display: flex;
     width: 100vw;
@@ -41,8 +90,45 @@
 .wrapper {
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 20px;
     gap: 40px;
+}
+
+.CMAQuote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent 15%, #F1F1F1 15%, #F1F1F1 85%, transparent 85%),
+                    center / cover no-repeat url("../../resources/Work/APEPreview.png");
+    color: #0D0D0D;
+    font-family: 'Clash Display', sans-serif;
+    width: 100vw;
+    font-size: 32px;
+    padding: 15% 0;
+}
+
+.CMAQuote p, .nameRole span, .CMAQuote p strong {
+    color: #0D0D0D;
+}
+
+.nameRole span {
+    text-decoration: underline;
+}
+
+.nameRole {
+    margin-left: -10%;
+}
+
+.CMAQuote p {
+    width: 1000px;
+}
+
+.homeFooter {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 32px;
 }
 
 @keyframes marquee {

@@ -34,7 +34,7 @@ export default function TsoHost({ mode, setMode }) {
             <video className={styles.billboard} src={tsoHostSubwayBillboard} autoPlay muted loop />
             <img src={tsoHostNewspaperImg} alt="tsoHost newspaper example" />
             <img src={tsoHostCarouselGif}  />
-            <img src={tsoHostDisplayAdsImg} alt="tsoHost display ads on laptop" />
+            <img src={tsoHostDisplayAdsImg} style={{ position: "relative", right: "-250px", maxWidth: "120vw" }} alt="tsoHost display ads on laptop" />
             <video src={tsoHostDEPMockup} autoPlay loop muted />
             <Footer mode={mode}/>
             <ScrollToTopBtn mode={mode} />

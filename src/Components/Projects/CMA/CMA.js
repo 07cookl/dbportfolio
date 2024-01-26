@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import styles from "./CMA.module.css";
 import Footer from "../../Footer/Footer";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
+import { CMAAmazonImg, CMAArcadeImg, CMAEmailImg, CMANikeImg, CMANineGridImg, CMAPinkImg, CMAToastImg, CMATwoLaptopsImg, CMAWavesImg } from "../../../util/images";
+import CMAPicadilly from "../../../resources/CMA/PicadillyCircusMockup.mp4";
 
 export default function CMA({ mode, setMode }) {
 
@@ -14,6 +16,9 @@ export default function CMA({ mode, setMode }) {
 
     return (
         <section className={styles.container}>
+            <div className={styles.CMAHero}>
+
+            </div>
             <section className={styles.CMAInfo}>
                 <div className={styles.CMAHeading}>
                     <h1 className={textClass}>CMA</h1>
@@ -30,6 +35,20 @@ export default function CMA({ mode, setMode }) {
                     </p>
                 </div>
             </section>
+            <img src={CMANineGridImg} alt="Nine grid of CMA work examples" />
+            <img src={CMAToastImg} style={{ marginTop: "20px" }} alt="Example of CMA work" />
+            <img src={CMATwoLaptopsImg} alt="CMA work on laptops" />
+            <video src={CMAPicadilly} autoPlay muted loop />
+            <div className={styles.CMAGrid}>
+                <div style={{ backgroundColor: "#F1F1F1" }}></div>
+                <div><img src={CMAAmazonImg} alt=""/></div>
+                <div><img src={CMAWavesImg} alt=""/></div>
+                <div><img src={CMAPinkImg} alt=""/></div>
+                <div><img src={CMAArcadeImg} alt=""/></div>
+                <div style={{ backgroundColor : "#0D0D0D" }}></div>
+                <div><img src={CMAAmazonImg} alt=""/></div>
+                <div><img src={CMANikeImg} alt=""/></div>
+            </div>
             <Footer mode={mode} />
             <ScrollToTopBtn mode={mode} />
         </section>    
