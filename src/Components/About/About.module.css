@@ -18,7 +18,7 @@
 .palletteImage {
     position: absolute;
     height: 75%;
-    width: 30vw;
+    width: fit-content;
     top: 200px;
     right: 100px;
     border: 1px solid #F1F1F1;

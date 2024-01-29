@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./About.module.css";
 import Footer from "../Footer/Footer";
-import { workImages } from "../../util/images";
+import aboutVideo from "../../resources/About/aboutAndContactPage.mp4";
 import ScrollToTopBtn from "../../util/scrollToTopBtn";
 
 export default function About({ mode, setMode }) {
@@ -37,7 +37,7 @@ export default function About({ mode, setMode }) {
                     </ul>
                 </div>
             </div>
-            <img className={styles.palletteImage} src={workImages[5].src} alt=""/>
+            <video className={styles.palletteImage} src={aboutVideo} autoPlay muted loop />
             <Footer mode={mode}/>
             <ScrollToTopBtn mode={mode} />
         </section>

@@ -20,8 +20,8 @@ import CMAWaves from "../resources/CMA/waves.png";
 import CMANineGrid from "../resources/CMA/CMANineGrid.png";
 import CMALaptopHero from "../resources/CMA/CMALaptopHero.png";
 import CMATwoLaptops from "../resources/CMA/CmaTwoLaptops.png";
-import CMAEmail from "../resources/CMA/CMAEmail.png";
 import CMAToast from "../resources/CMA/CMA_GrimsbyBornAndToast.png";
+import CMAGroupLong from "../resources/CMA/CMAGroupLong.png";
 import FundoDesktopGroup from "../resources/fundomundo/Fundo Desktop Group.png";
 import FundoLongGroup from "../resources/fundomundo/Fundo Long Group.png";
 import FundoMobileGroup from "../resources/fundomundo/Fundo Mobile Group.png";
@@ -29,6 +29,7 @@ import FundoOpenLaptop from "../resources/fundomundo/Fundo Open Laptop.png";
 import FundoLaptop from "../resources/fundomundo/FundoLaptop.png";
 import TWEGroup from "../resources/TheWomensExchange/TWEGroup.png";
 import TWELaptop from "../resources/TheWomensExchange/TWELaptop.png";
+import homeLegoTower from "../resources/Home/Frame 27.png";
 
 export const ALLpaQLaptopImg = ALLpaQLaptop01;
 export const ALLpaQ3dMockupRocksImg = ALLpaQ3dMockupRocks;
@@ -58,7 +59,7 @@ export const CMAWavesImg = CMAWaves;
 export const CMANineGridImg = CMANineGrid;
 export const CMALaptopHeroImg = CMALaptopHero;
 export const CMATwoLaptopsImg = CMATwoLaptops;
-export const CMAEmailImg = CMAEmail;
+export const CMAGroupLongImg = CMAGroupLong;
 export const CMAToastImg = CMAToast;
 
 export const FundoDesktopGroupImg = FundoDesktopGroup;
@@ -69,3 +70,5 @@ export const FundoLaptopImg = FundoLaptop;
 
 export const TWEGroupImg = TWEGroup;
 export const TWELaptopImg = TWELaptop;
+
+export const homeLegoTowerImg = homeLegoTower;

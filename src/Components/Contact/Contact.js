@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Contact.module.css";
 import Footer from "../Footer/Footer";
-import { workImages } from "../../util/images";
+import contactVideo from "../../resources/Contact/aboutAndContactPage.mp4";
 import ScrollToTopBtn from "../../util/scrollToTopBtn";
 
 export default function Contact({ mode, setMode }) {
@@ -28,7 +28,7 @@ export default function Contact({ mode, setMode }) {
                     <p><strong><a href="https://www.instagram.com/danielblackmandesign/">Instagram</a></strong></p>
                 </div>
             </div>
-            <img className={styles.palletteImage} src={workImages[5].src} alt=""/>
+            <video className={styles.palletteImage} src={contactVideo} autoPlay loop muted />
             <div className={styles.footer}>
                 <Footer mode={mode} />
             </div>

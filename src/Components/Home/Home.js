@@ -1,10 +1,17 @@
 import React, { useEffect } from "react";
 import styles from "./Home.module.css";
 import { workImages } from "../../util/images";
-import { Link } from "react-router-dom";
+import { homeLegoTowerImg } from "../../util/images";
+import homeCompilation from "../../resources/Home/HomepageCompilation.mp4";
+import { Link, useNavigate } from "react-router-dom";
 import ScrollToTopBtn from "../../util/scrollToTopBtn";
+import ALLpaQVideo from "../../resources/ALLpaQ/ALLpaQ-404-service-container-page-showcase-1.mp4";
+import CMAVideo from "../../resources/CMA/PicadillyCircusMockup.mp4";
+import tsoHostVideo from "../../resources/tsoHost/tsoHOST_DEP_Mockup 2.mp4";
 
 export default function Home({ mode, setMode }) {
+    const navigate = useNavigate();
+    const element = document.getElementById("navBar");
 
     useEffect(() => {
         setMode("dark");
@@ -12,7 +19,14 @@ export default function Home({ mode, setMode }) {
 
     const middleDot = '\u00B7';
 
-    const experienceTicker = ['UX','*','Web','*','Social','*','Photography','*','Editorial','*','UI','*','3D','*','Photobashing','*','Print','*']
+    const experienceTicker = ['UX','*','Web','*','Social','*','Photography','*','Editorial','*','UI','*','3D','*','Photobashing','*','Print','*'];
+
+    const handleClick = (page) => {
+        navigate(`/work/${page}`);
+        element.scrollIntoView({
+            alignToTop: true,
+        });
+    };
 
     return (
         <section className={styles.container}>
@@ -27,13 +41,30 @@ export default function Home({ mode, setMode }) {
                 <p>A UK based <strong>multi-disciplinary designer.</strong></p>
                 <p>With a background in interactive design and a career spanning all visual elements of the marketing toolkit.</p>
             </div>
-            <img src={workImages[5].src} alt="" />
+            <video src={homeCompilation} autoPlay muted loop />
             <div className={styles.quote}>
                 <p><span>"</span>I've worked with Dan for about four years and I never cease to be amazed by his ever-evolving skills and abilities."</p>
-                <img src={workImages[5].src} alt=""/>
+                <img src={homeLegoTowerImg} alt=""/>
             </div>
             <div className={styles.mobileViews}>
-                <img src={workImages[5].src} alt="" />
+                <div className={styles.mobileVideo}>
+                    <Link to="/work/ALLpaQ">
+                        <video src={ALLpaQVideo} autoPlay muted loop />
+                    </Link>
+                    <div className={styles.mobileTitle} onClick={() => handleClick("ALLpaQ")}>ALLpaQ</div>
+                </div>
+                <div className={styles.mobileVideo}>
+                    <Link to="/work/CMA">
+                        <video src={CMAVideo} autoPlay muted loop />
+                    </Link>
+                    <div className={styles.mobileTitle} onClick={() => handleClick("CMA")}>CMA</div>
+                </div>
+                <div className={styles.mobileVideo}>
+                    <Link to="/work/tsoHost">
+                        <video src={tsoHostVideo} autoPlay muted loop />
+                    </Link>
+                    <div className={styles.mobileTitle} onClick={() => handleClick("tsoHost")}>tsoHost</div>
+                </div>
             </div>
             <Link to="/work"><button className={styles.seeMoreBtn}>See more</button></Link>
             <div className={styles.tickerWrapper}>
