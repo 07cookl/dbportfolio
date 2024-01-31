@@ -39,6 +39,11 @@ nav {
   margin-top: 48px;
   font-family: Inter, sans-serif;
   font-size: 20px;
+  @media only screen and (min-width: 1441px) {
+    & {
+        font-size: 48px;
+    }
+}
 }
 
 nav ul {
@@ -47,6 +52,11 @@ nav ul {
   justify-content: center;
   list-style: none;
   padding-left: 0;
+  @media only screen and (min-width: 1441px) {
+    & {
+        gap: 50px;
+    }
+}
 }
 
 nav a {
