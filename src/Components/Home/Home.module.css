@@ -17,6 +17,11 @@
     padding: 136px 8.333%;
     background-color: transparent;
     list-style: none;
+    @media only screen and (min-width: 1441px) {
+        & {
+            padding: 250px 8.333%;
+        }
+    };
 }
 
 .header ul li {
@@ -26,7 +31,7 @@
     overflow-y: hidden;
     line-height: 0.8;
     font-weight: 300;
-    @media only screen and (min-width: 769px) and (max-width: 1000px) {
+    @media only screen and (max-width: 1200px) {
         & {
             font-size: 150px;
         }
@@ -41,7 +46,7 @@
 .header ul li:last-child {
     font-weight: 700;
     height: 200px;
-    @media only screen and (min-width: 769px) and (max-width: 1000px) {
+    @media only screen and (max-width: 1200px) {
         & {
             font-size: 150px;
         }
@@ -100,7 +105,7 @@
     width: 34%;
     text-indent: -52px;
     overflow: visible;
-    @media only screen and (min-width: 769px) and (max-width: 1000px) {
+    @media only screen and (max-width: 1200px) {
         & {
             font-size: 40px;
         }
@@ -123,9 +128,19 @@
     align-items: center;
     gap: 32px;
     margin-top: 48px;
-    height: 62vh;
-    width: 70vw;
+    height: fit-content;
+    width: 970px;
     overflow: hidden;
+    @media only screen and (max-width: 1200px) {
+        & {
+            width: 670px;
+        }
+    };
+    @media only screen and (min-width: 1441px) {
+        & {
+            width: 1570px;
+        }
+    }
 }
 
 .mobileVideo {
@@ -140,7 +155,7 @@
     gap: 8px;
     overflow: hidden;
     transition: all 0.4s ease-in-out;
-    @media only screen and (min-width: 769px) and (max-width: 1000px) {
+    @media only screen and (max-width: 1200px) {
         & {
             width: 200px;
         }
@@ -178,12 +193,13 @@
 
 .mobileVideo:hover {
     width: 400px;
+    aspect-ratio: 3/5;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
     .mobileTitle {
         visibility: visible;
     }
-    @media only screen and (min-width: 769px) and (max-width: 1000px) {
+    @media only screen and (max-width: 1200px) {
         & {
             width: 266px;
         }
@@ -215,14 +231,12 @@
 
 .tickerWrapper {
     display: flex;
-    width: 100vw;
 }
 
 .tickerContainer {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    width: 100vw;
     overflow-x: visible;
     padding-right: 40px;
     animation: marquee 10s linear infinite;
@@ -231,13 +245,8 @@
 .wrapper {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 32px;
     gap: 40px;
-    @media only screen and (min-width: 769px) and (max-width: 1000px) {
-        & {
-            font-size: 11px;
-        }
-    };
     @media only screen and (min-width: 1441px) {
         & {
             font-size: 64px;
@@ -256,7 +265,7 @@
     width: 100vw;
     font-size: 32px;
     padding: 15% 0;
-    @media only screen and (min-width: 769px) and (max-width: 1000px) {
+    @media only screen and (max-width: 1200px) {
         & {
             font-size: 24px;
         }
@@ -290,7 +299,7 @@
     justify-content: space-between;
     font-family: 'Clash Display', sans-serif;
     font-size: 32px;
-    @media only screen and (min-width: 769px) and (max-width: 1000px) {
+    @media only screen and (max-width: 1200px) {
         & {
             font-size: 24px;
         }
