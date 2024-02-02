@@ -29,7 +29,7 @@ export default function Fundomundo( { mode, setMode }) {
                 </div>
             </section>
             <img src={FundoLongGroupImg} alt="Examples of Fundomundo work" />
-            <img src={FundoOpenLaptopImg} style={{ maxWidth: "100vw" }} alt="Laptop with example of Fundomundo work" />
+            <img src={FundoOpenLaptopImg} style={{ width: "100vw" }} alt="Laptop with example of Fundomundo work" />
             <img src={FundoDesktopGroupImg} alt="Examples of Fundomundo desktop work" />
             <img src={FundoLaptopImg} style={{ marginTop: "100px" }} alt="" />
             <img src={FundoMobileGroupImg} alt="Examples of Fundomundo mobile work" />

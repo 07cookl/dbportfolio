@@ -6,34 +6,36 @@
 }
 
 .ALLpaQInfo {
-    display: flex;
-    gap: 120px;
+    display: grid;
+    gap: 10vw;
     font-family: Inter, sans-serif;
+    width: 80vw;
+    grid-template-columns: 2fr 3fr;
+    margin: 10vh 0;
 }
 
 .ALLpaQHeading h1 {
     font-family: 'Clash Display', sans-serif;
-    font-size: 94px;
+    font-size: 6.5vw;
     margin: 0;
     font-weight: 900;
 }
 
 .ALLpaQHeading h3 {
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight: 500;
     line-height: 1.5;
     margin: 0;
 }
 
 .ALLpaQOverview h3 {
-    font-size: 24px;
+    font-size: 1.7vw;
     font-weight: 700;
     margin-top: 12px;
 }
 
 .ALLpaQOverview p {
-    width: 530px;
-    font-size: 24px;
+    font-size: 1.7vw;
     font-weight: 400;
 }
 
@@ -46,6 +48,6 @@
 }
 
 .rocksImg {
-    width: 1800px;
-    margin-left: 800px;
+    width: 100vw;
+    margin-left: clamp(300px, 60vw, 900px);
 }

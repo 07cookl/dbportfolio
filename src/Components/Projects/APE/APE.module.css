@@ -6,34 +6,36 @@
 }
 
 .APEInfo {
-    display: flex;
-    gap: 120px;
+    display: grid;
+    gap: 10vw;
     font-family: Inter, sans-serif;
+    width: 80vw;
+    grid-template-columns: 2fr 3fr;
+    margin: 10vh 0;
 }
 
 .APEHeading h1 {
     font-family: 'Clash Display', sans-serif;
-    font-size: 64px;
+    font-size: 4.5vw;
     margin: 0;
     font-weight: 900;
 }
 
 .APEHeading h3 {
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight: 500;
     line-height: 1.5;
     margin: 0;
 }
 
 .APEOverview h3 {
-    font-size: 24px;
+    font-size: 1.7vw;
     font-weight: 700;
     margin-top: 12px;
 }
 
 .APEOverview p {
-    width: 530px;
-    font-size: 24px;
+    font-size: 1.7vw;
     font-weight: 400;
 }
 
@@ -41,6 +43,6 @@
     color: #FFA31A;
 }
 
-.container video, .container img {
-    max-width: 90vw;
+.container video, .container > img {
+    width: 90vw;
 }
