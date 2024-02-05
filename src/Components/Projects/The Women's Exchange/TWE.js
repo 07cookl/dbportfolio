@@ -11,7 +11,7 @@ export default function TheWomensExchange({ mode, setMode }) {
 
     useEffect(() => {
         setMode("light");
-    },[])
+    },[setMode])
 
     return (
         <section className={styles.container}>

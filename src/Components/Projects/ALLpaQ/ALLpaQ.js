@@ -13,7 +13,7 @@ export default function ALLpaQ({ mode, setMode }) {
 
     useEffect(() => {
         setMode("dark");
-    },[])
+    },[setMode])
     
     return (
         <section className={styles.container}>
@@ -33,10 +33,10 @@ export default function ALLpaQ({ mode, setMode }) {
                     <a href="https://allpaq.com/">{">"} ALLpaQ</a></p>
                 </div>
             </section>
-            <img className={styles.rocksImg} src={ALLpaQ3dMockupRocksImg} />
+            <img className={styles.rocksImg} src={ALLpaQ3dMockupRocksImg} alt="An example of ALLpaQ work" />
             <video src={ALLpaQ404} autoPlay loop muted />
-            <img src={ALLpaQLongImageImg} />
-            <img src={ALLpaQLaptopImg} />
+            <img src={ALLpaQLongImageImg} alt="Examples of ALLpaQ work" />
+            <img src={ALLpaQLaptopImg} alt="Laptop displaying ALLpaQ work" />
             <Footer mode={mode} />
             <ScrollToTopBtn mode={mode} />
         </section>

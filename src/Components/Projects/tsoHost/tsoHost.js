@@ -14,7 +14,7 @@ export default function TsoHost({ mode, setMode }) {
 
     useEffect(() => {
         setMode("light");
-    },[])
+    },[setMode])
 
     return (
         <section className={styles.container}>
@@ -33,7 +33,7 @@ export default function TsoHost({ mode, setMode }) {
             </section>
             <video className={styles.billboard} src={tsoHostSubwayBillboard} autoPlay muted loop />
             <img src={tsoHostNewspaperImg} alt="tsoHost newspaper example" />
-            <img src={tsoHostCarouselGif}  />
+            <img src={tsoHostCarouselGif} alt="Carousel of tsoHost work" />
             <img src={tsoHostDisplayAdsImg} style={{ position: "relative", right: "-250px", maxWidth: "120vw" }} alt="tsoHost display ads on laptop" />
             <video src={tsoHostDEPMockup} autoPlay loop muted />
             <Footer mode={mode}/>

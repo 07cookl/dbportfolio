@@ -11,7 +11,7 @@ export default function Fundomundo( { mode, setMode }) {
 
     useEffect(() => {
         setMode("light");
-    },[])
+    },[setMode])
 
     return (
         <section className={styles.container}>
