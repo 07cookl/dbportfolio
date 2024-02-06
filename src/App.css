@@ -35,28 +35,18 @@
 }
 
 nav {
-  padding: 8px 0px;
-  margin-top: 48px;
+  padding: 0.6vw 0px;
+  margin-top: 3.3vw;
   font-family: Inter, sans-serif;
-  font-size: 20px;
-  @media only screen and (min-width: 1441px) {
-    & {
-        font-size: 48px;
-    }
-}
+  font-size: 1.4vw;
 }
 
 nav ul {
   display: flex;
-  gap: 30px;
+  gap: 2.1vw;
   justify-content: center;
   list-style: none;
   padding-left: 0;
-  @media only screen and (min-width: 1441px) {
-    & {
-        gap: 50px;
-    }
-}
 }
 
 nav a {

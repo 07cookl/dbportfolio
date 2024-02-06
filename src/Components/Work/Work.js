@@ -107,7 +107,7 @@ export default function Work({ mode, setMode }) {
                     </figure>
                 </Link>
             </section>
-            <div className={styles.footer}>
+            <div style={{ position: "absolute", bottom: "0" }}>
                 <Footer mode={mode} />
             </div>
             <ScrollToTopBtn mode={mode} />

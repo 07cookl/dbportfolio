@@ -8,7 +8,7 @@ export default function About({ mode, setMode }) {
 
     useEffect(() => {
         setMode("dark");
-    },[])
+    },[mode, setMode])
 
     return (
         <section className={styles.container}>
@@ -38,8 +38,10 @@ export default function About({ mode, setMode }) {
                 </div>
             </div>
             <video className={styles.palletteImage} src={aboutVideo} autoPlay muted loop />
-            <Footer mode={mode}/>
             <ScrollToTopBtn mode={mode} />
+            <div style={{ position: "absolute", bottom: "0" }}>
+                <Footer mode={mode} />
+            </div>
         </section>
     )
 };

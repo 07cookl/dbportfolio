@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import styles from "./Home.module.css";
-import { workImages } from "../../util/images";
 import { homeLegoTowerImg } from "../../util/images";
 import homeCompilation from "../../resources/Home/HomepageCompilation.mp4";
 import { Link, useNavigate } from "react-router-dom";
@@ -15,7 +14,7 @@ export default function Home({ mode, setMode }) {
 
     useEffect(() => {
         setMode("dark");
-    },[])
+    },[mode, setMode])
 
     const middleDot = '\u00B7';
 

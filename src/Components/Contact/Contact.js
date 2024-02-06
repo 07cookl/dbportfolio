@@ -8,7 +8,7 @@ export default function Contact({ mode, setMode }) {
 
     useEffect(() => {
         setMode("dark");
-    },[])
+    },[mode, setMode])
 
     return (
         <section className={styles.container}>
@@ -29,7 +29,7 @@ export default function Contact({ mode, setMode }) {
                 </div>
             </div>
             <video className={styles.palletteImage} src={contactVideo} autoPlay loop muted />
-            <div className={styles.footer}>
+            <div style={{ position: "absolute", bottom: "0" }}>
                 <Footer mode={mode} />
             </div>
             <ScrollToTopBtn mode={mode} />

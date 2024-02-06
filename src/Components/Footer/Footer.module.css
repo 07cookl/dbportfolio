@@ -2,18 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 3.3vw;
     cursor: pointer;
-    width: 500px;
+    width: 100vw;
+    font-size: 0.8vw !important;
+    font-family: Inter, sans-serif;
 }
 
 .footer img {
-    width: 20px;
-    height: 20px;
+    width: 1.4vw;
+    aspect-ratio: 1;
 }
 
 .footer p {
-    width: 200px;
+    width: 14vw;
     font-family: Inter, sans-serif;
 }
 

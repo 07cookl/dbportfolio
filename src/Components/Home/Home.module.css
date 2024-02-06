@@ -14,48 +14,23 @@
 }
 
 .header ul {
-    padding: 136px 8.333%;
+    padding: 9.4vw 8.333%;
     background-color: transparent;
     list-style: none;
-    @media only screen and (min-width: 1441px) {
-        & {
-            padding: 250px 8.333%;
-        }
-    };
 }
 
 .header ul li {
     font-family: 'Clash Display', sans-serif;
-    font-size: 200px;
+    font-size: 13.9vw;
     background-color: transparent;
     overflow-y: hidden;
     line-height: 0.8;
     font-weight: 300;
-    @media only screen and (max-width: 1200px) {
-        & {
-            font-size: 150px;
-        }
-    };
-    @media only screen and (min-width: 1441px) {
-        & {
-            font-size: 400px;
-        }
-    };
 }
 
 .header ul li:last-child {
     font-weight: 700;
-    height: 200px;
-    @media only screen and (max-width: 1200px) {
-        & {
-            font-size: 150px;
-        }
-    };
-    @media only screen and (min-width: 1441px) {
-        & {
-            height: 400px;
-        }
-    };
+    height: 13.9vw;
 }
 
 .intro {
@@ -95,26 +70,16 @@
 }
 
 .quote img {
-    height: 61vh;
+    height: 35vw;
 }
 
 .quote p {
     font-family: 'Clash Display', sans-serif;
-    font-size: 48px;
+    font-size: 3.3vw;
     font-weight: 600;
     width: 34%;
     text-indent: -52px;
     overflow: visible;
-    @media only screen and (max-width: 1200px) {
-        & {
-            font-size: 40px;
-        }
-    };
-    @media only screen and (min-width: 1441px) {
-        & {
-            font-size: 96px;
-        }
-    }
 }
 
 .quote p span {
@@ -136,7 +101,7 @@
             width: 670px;
         }
     };
-    @media only screen and (min-width: 1441px) {
+    @media only screen and (min-width: 1700px) {
         & {
             width: 1570px;
         }
@@ -160,7 +125,7 @@
             width: 200px;
         }
     };
-    @media only screen and (min-width: 1441px) {
+    @media only screen and (min-width: 1700px) {
         & {
             width: 500px;
         }
@@ -184,7 +149,7 @@
     font-size: 48px;
     font-weight: 700;
     font-family: 'Clash Display', sans-serif;
-    @media only screen and (min-width: 1441px) {
+    @media only screen and (min-width: 1700px) {
         & {
             font-size: 96px;
         }
@@ -204,7 +169,7 @@
             width: 266px;
         }
     };
-    @media only screen and (min-width: 1441px) {
+    @media only screen and (min-width: 1700px) {
         & {
             width: 666px;
         }

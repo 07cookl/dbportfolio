@@ -154,11 +154,3 @@
     background-color: rgb(13, 13, 13);
     border-color: rgb(13, 13, 13);
 }
-
-.footer {
-    position: absolute;
-    left: 50%;
-    bottom: 0%;
-    transform: translateX(-50%);
-    font-size: 14px;
-}

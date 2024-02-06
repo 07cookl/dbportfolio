@@ -1,22 +1,22 @@
 .container {
     width: 100vw;
-    font-size: 24px;
+    font-size: 1.6vw;
     font-family: Inter, sans-serif;
 }
 
 .container h1 {
-    font-size: 94px;
+    font-size: 6.5vw;
     font-family: 'Clash Display', sans-serif;
     font-weight: 700;
-    margin: 64px 0 50px 50px;
+    margin: 4.4vw 0 3.5vw 3.5vw;
 }
 
 .palletteImage {
     position: absolute;
-    height: 60%;
+    height: 50vw;
     width: fit-content;
-    top: 200px;
-    right: 100px;
+    top: calc(7.4vw + 66px);
+    right: 3vw;
     border: 1px solid #F1F1F1;
 }
 
@@ -24,7 +24,7 @@
     border-top: 1px solid #F1F1F1;
     border-bottom: 1px solid #F1F1F1;
     color: rgba(241, 241, 241, 0.8);
-    padding: 40px 0 40px 50px;
+    padding: 2.8vw 0 2.8vw 3.5vw;
 }
 
 .contactInfo {
@@ -36,13 +36,13 @@
 .contacts {
     border-right: 1px solid #F1F1F1;
     border-bottom: 1px solid #F1F1F1;
-    padding: 36px 0 36px 50px;
+    padding: 2.5vw 0 2.5vw 3.5vw;
     color: rgba(241, 241, 241, 0.8);
     display: grid;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 5.6vw 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 40px;
-    column-gap: 24px;
+    row-gap: 2.8vw;
+    column-gap: 1.7vw;
 }
 
 .contacts p, .socials p {
@@ -61,20 +61,12 @@
 .socials {
     border-left: 1px solid #F1F1F1;
     border-bottom: 1px solid #F1F1F1;
-    padding: 36px 0 36px 50px;
+    padding: 2.5vw 0 2.5vw 3.5vw;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    row-gap: 40px;
+    row-gap: 2.8vw;
 }
 
 .contacts a, .socials a {
     text-decoration: none;
-}
-
-.footer {
-    position: absolute;
-    left: 50%;
-    bottom: 0%;
-    transform: translateX(-50%);
-    font-size: 14px;
 }

@@ -2,8 +2,7 @@ import React from "react";
 import styles from "./Footer.module.css";
 import homeImageLight from "../../resources/homeImageLight.png";
 import homeImageDark from "../../resources/homeImageDark.png";
-import ROUTES from "../../app/routes";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Footer(props) {
 

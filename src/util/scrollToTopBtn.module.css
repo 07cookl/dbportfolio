@@ -1,9 +1,9 @@
 .scrollBtn {
     position: fixed;
-    bottom: 16px;
-    right: 16px;
-    width: 48px;
-    height: 48px;
+    bottom: 1.1vw;
+    right: 1.1vw;
+    width: 3.3vw;
+    height: 3.3vw;
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
