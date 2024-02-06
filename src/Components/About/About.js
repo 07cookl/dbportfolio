@@ -8,7 +8,7 @@ export default function About({ mode, setMode }) {
 
     useEffect(() => {
         setMode("dark");
-    },[])
+    },[mode, setMode])
 
     return (
         <section className={styles.container}>

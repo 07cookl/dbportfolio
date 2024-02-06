@@ -6,16 +6,16 @@ import {
   Routes
 } from "react-router-dom";
 import AppLayout from "./app/AppLayout";
-import About from "./components/About/About";
-import Work from "./components/Work/Work";
-import Contact from "./components/Contact/Contact";
-import Home from "./components/Home/Home";
-import ALLpaQ from './components/Projects/ALLpaQ/ALLpaQ';
-import TsoHost from './components/Projects/tsoHost/TsoHost';
-import CMA from './components/Projects/CMA/CMA';
-import Fundomundo from './components/Projects/Fundomundo/Fundomundo';
-import TheWomensExchange from './components/Projects/The Women\'s Exchange/TWE';
-import APE from './components/Projects/APE/APE';
+import About from "./Components/About/About";
+import Work from "./Components/Work/Work";
+import Contact from "./Components/Contact/Contact";
+import Home from "./Components/Home/Home";
+import ALLpaQ from './Components/Projects/ALLpaQ/ALLpaQ';
+import TsoHost from './Components/Projects/tsoHost/TsoHost';
+import CMA from './Components/Projects/CMA/CMA';
+import Fundomundo from './Components/Projects/Fundomundo/Fundomundo';
+import TheWomensExchange from './Components/Projects/The Women\'s Exchange/TWE';
+import APE from './Components/Projects/APE/APE';
 
 export default function App() {
   const [mode, setMode] = useState('');
