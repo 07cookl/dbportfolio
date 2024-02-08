@@ -139,10 +139,10 @@
 .mobileTitle {
     position: absolute;
     width: inherit;
-    aspect-ratio: inherit;
-    border-radius: inherit;
+    /* aspect-ratio: inherit; */
+    /* border-radius: inherit; */
     visibility: hidden;
-    background: rgba(0,0,0,0.4);
+    /* background: rgba(0,0,0,0.4); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,6 +164,9 @@
     .mobileTitle {
         visibility: visible;
     }
+    .mobileVideo video {
+        opacity: 0.7;
+    };
     @media only screen and (max-width: 1200px) {
         & {
             width: 266px;
