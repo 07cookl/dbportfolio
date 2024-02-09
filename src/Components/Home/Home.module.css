@@ -164,6 +164,7 @@
     filter: brightness(0.4);
     .mobileTitle {
         visibility: visible;
+        filter: brightness(1);
     }
     @media only screen and (max-width: 1200px) {
         & {
