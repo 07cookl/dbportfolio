@@ -139,17 +139,14 @@
 .mobileTitle {
     position: absolute;
     width: inherit;
-    /* aspect-ratio: inherit; */
-    /* border-radius: inherit; */
     visibility: hidden;
-    /* background: rgba(0,0,0,0.4); */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 48px;
     font-weight: 700;
     font-family: 'Clash Display', sans-serif;
-    filter: brightness(1) !important;
+    /* filter: brightness(1) !important; */
     @media only screen and (min-width: 1700px) {
         & {
             font-size: 96px;
@@ -162,7 +159,8 @@
     aspect-ratio: 3/5;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
-    filter: brightness(0.4);
+    /* filter: brightness(0.4); */
+    box-shadow: inset 1000px 1000px rgba(0,0,0,0.4);
     .mobileTitle {
         visibility: visible;
     }
