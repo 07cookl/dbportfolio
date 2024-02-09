@@ -149,6 +149,7 @@
     font-size: 48px;
     font-weight: 700;
     font-family: 'Clash Display', sans-serif;
+    filter: brightness(1) !important;
     @media only screen and (min-width: 1700px) {
         & {
             font-size: 96px;
@@ -164,7 +165,6 @@
     filter: brightness(0.4);
     .mobileTitle {
         visibility: visible;
-        filter: brightness(1);
     }
     @media only screen and (max-width: 1200px) {
         & {
