@@ -139,7 +139,7 @@
 .mobileTitle {
     position: absolute;
     width: inherit;
-    height: inherit;
+    aspect-ratio: inherit;
     border-radius: inherit;
     visibility: hidden;
     display: flex;
