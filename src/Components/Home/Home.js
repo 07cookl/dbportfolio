@@ -18,7 +18,7 @@ export default function Home({ mode, setMode }) {
 
     const middleDot = '\u00B7';
 
-    const experienceTicker = ['UX','*','Web','*','Social','*','Photography','*','Editorial','*','UI','*','3D','*','Photobashing','*','Print','*'];
+    const experienceTicker = ['UX','\u2217','Web','\u2217','Social','\u2217','Photography','\u2217','Editorial','\u2217','UI','\u2217','3D','\u2217','Photobashing','\u2217','Print','\u2217'];
 
     const handleClick = (page) => {
         navigate(`/work/${page}`);
