@@ -159,7 +159,7 @@
     .mobileTitle {
         visibility: visible;
         width: 400px;
-        box-shadow: inset 1000px 1000px #0D0D0D40;
+        box-shadow: inset 1000px 1000px #0D0D0D80;
         transition: all 0.4s ease-in-out;
     }
     @media only screen and (max-width: 1200px) {
@@ -170,7 +170,7 @@
             width: 266px;
         }
     };
-    @media only screen and (min-width: 1900) {
+    @media only screen and (min-width: 1900px) {
         & {
             width: 666px;
         }
