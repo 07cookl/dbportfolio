@@ -115,7 +115,7 @@
             width: 200px;
         }
     };
-    @media only screen and (min-width: 1700px) {
+    @media only screen and (min-width: 1900px) {
         & {
             width: 500px;
         }
@@ -138,13 +138,12 @@
     font-size: 48px;
     font-weight: 700;
     font-family: 'Clash Display', sans-serif;
-    transition: all 0.4s ease-in-out;
     @media only screen and (max-width: 1200px) {
         & {
             width: 200px;
         }
     };
-    @media only screen and (min-width: 1700px) {
+    @media only screen and (min-width: 1900px) {
         & {
             width: 500px;
             font-size: 96px;
@@ -159,6 +158,7 @@
     transition: all 0.4s ease-in-out;
     .mobileTitle {
         visibility: visible;
+        width: 400px;
         box-shadow: inset 1000px 1000px #0D0D0D40;
         transition: all 0.4s ease-in-out;
     }
@@ -170,7 +170,7 @@
             width: 266px;
         }
     };
-    @media only screen and (min-width: 1700px) {
+    @media only screen and (min-width: 1900) {
         & {
             width: 666px;
         }
