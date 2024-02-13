@@ -138,6 +138,7 @@
     font-size: 48px;
     font-weight: 700;
     font-family: 'Clash Display', sans-serif;
+    transition: all 0.4s ease-in-out;
     @media only screen and (max-width: 1200px) {
         & {
             width: 200px;
@@ -159,6 +160,7 @@
     .mobileTitle {
         visibility: visible;
         box-shadow: inset 1000px 1000px #0D0D0D40;
+        transition: all 0.4s ease-in-out;
     }
     @media only screen and (max-width: 1200px) {
         & {
