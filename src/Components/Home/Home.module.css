@@ -162,7 +162,7 @@
     transition: all 0.4s ease-in-out;
     .mobileTitle {
         visibility: visible;
-        box-shadow: inset 1000px 1000px rgba(0,0,0,0.4);
+        box-shadow: inset 1000px 1000px rgba(212, 17, 17, 0.7);
     }
     @media only screen and (max-width: 1200px) {
         & {
