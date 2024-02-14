@@ -76,7 +76,7 @@
     margin: 126px 0;
 }
 
-.CMAGrid video {
+.CMAGrid video, .CMAGrid img {
     height: calc((75vw - 18px)/2);
     width: calc((75vw - 18px)/2);
 }

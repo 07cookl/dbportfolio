@@ -4,12 +4,6 @@
     align-items: center;
 }
 
-.container video {
-    max-width: 80vw;
-    border: 1px solid #F1F1F1;
-    border-radius: 50%;
-}
-
 .header {
     width: 100vw;
     background: center / contain no-repeat url("../../resources/Home/HeroImage.png");
@@ -53,7 +47,10 @@
 }
 
 .container video {
+    max-width: 80vw;
     width: 88vw;
+    border: 1px solid #F1F1F1;
+    border-radius: 48px;
 }
 
 .quote {
