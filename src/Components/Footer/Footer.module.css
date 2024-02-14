@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 3.3vw;
+    margin: 24px 0;
     cursor: pointer;
     width: 100vw;
     font-size: 0.8vw !important;

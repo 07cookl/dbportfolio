@@ -45,4 +45,5 @@
 
 .container video, .container > img {
     width: 90vw;
+    margin: 126px 0;
 }
