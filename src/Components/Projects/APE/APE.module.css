@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.APEHeader {
+    width: 100vw !important;
+}
+
 .APEInfo {
     display: grid;
     gap: 10vw;

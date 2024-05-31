@@ -3,8 +3,8 @@ import styles from "./tsoHost.module.css";
 import { tsoHostDisplayAdsImg, tsoHostNewspaperImg, tsoHostCarouselGif } from "../../../util/images";
 import tsoHostSubwayBillboard from "../../../resources/tsoHost/Subway Billboard Mockup - Copy.mp4";
 import tsoHostDEPMockup from "../../../resources/tsoHost/tsoHOST_DEP_Mockup 2.mp4";
+import tsoHostHeaderImg from "../../../resources/tsoHost/TSOHeader.png";
 import Footer from "../../Footer/Footer";
-import { workImages } from "../../../util/images";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
 
 export default function TsoHost({ mode, setMode }) {
@@ -18,7 +18,7 @@ export default function TsoHost({ mode, setMode }) {
 
     return (
         <section className={styles.container}>
-            <img src={workImages[5].src} alt="Laptop displaying tsoHost work" />
+            <img className={styles.tsoHostHeader} src={tsoHostHeaderImg} alt="Laptop displaying tsoHost work" />
             <section className={styles.tsoHostInfo}>
                 <div className={styles.tsoHostHeading}>
                     <h1 className={textClass}>tsoHost</h1>

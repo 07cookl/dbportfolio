@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./APE.module.css";
 import Footer from "../../Footer/Footer";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
-import { APEGroupBottomImg, APEGroupLongImg } from "../../../util/images";
+import { APEGroupBottomImg, APEGroupLongImg, APEHeaderImg } from "../../../util/images";
 
 export default function APE({ mode, setMode }) {
 
@@ -15,6 +15,7 @@ export default function APE({ mode, setMode }) {
 
     return (
         <section className={styles.container}>
+            <img className={styles.APEHeader} src={APEHeaderImg} alt="Laptop displaying ALLpaQ Plastic Engineering work" />
             <section className={styles.APEInfo}>
                 <div className={styles.APEHeading}>
                     <h1 className={textClass}>ALLpaQ<br/>Plastic<br/>Engineering</h1>

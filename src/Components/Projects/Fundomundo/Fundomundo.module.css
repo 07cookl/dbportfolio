@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.fundomundoHeader {
+    width: 100vw !important;
+}
+
 .fundomundoInfo {
     display: grid;
     gap: 10vw;

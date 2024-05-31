@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./TWE.module.css";
 import Footer from "../../Footer/Footer";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
-import { TWEGroupImg, TWELaptopImg } from "../../../util/images";
+import { TWEGroupImg, TWELaptopImg, TWEHeaderImg } from "../../../util/images";
 
 export default function TheWomensExchange({ mode, setMode }) {
 
@@ -15,6 +15,7 @@ export default function TheWomensExchange({ mode, setMode }) {
 
     return (
         <section className={styles.container}>
+            <img className={styles.TWEHeader} src={TWEHeaderImg} alt="Laptop displaying The Women's Exchange work" />
             <section className={styles.TWEInfo}>
                 <div className={styles.TWEHeading}>
                     <h1 className={textClass}>The Women's<br/> Exchange</h1>

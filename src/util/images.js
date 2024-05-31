@@ -30,6 +30,11 @@ import FundoLaptop from "../resources/fundomundo/FundoLaptop.png";
 import TWEGroup from "../resources/TheWomensExchange/TWEGroup.png";
 import TWELaptop from "../resources/TheWomensExchange/TWELaptop.png";
 import homeLegoTower from "../resources/Home/Frame 27.png";
+import workFCAS from "../resources/Work/FCASPreview.png";
+import tsoHostHeader from "../resources/tsoHost/TSOHeader.png";
+import FundoHeader from "../resources/fundomundo/FundomundoHeader.png";
+import TWEHeader from "../resources/TheWomensExchange/TWEHeader.png";
+import APEHeader from "../resources/APE/APEHeader.png";
 
 export const ALLpaQLaptopImg = ALLpaQLaptop01;
 export const ALLpaQ3dMockupRocksImg = ALLpaQ3dMockupRocks;
@@ -38,6 +43,7 @@ export const ALLpaQLongImageImg = ALLpaQLongImage;
 export const tsoHostDisplayAdsImg = tsoHostDisplayAds;
 export const tsoHostNewspaperImg = tsoHostNewspaper;
 export const tsoHostCarouselGif = tsoHostCarousel;
+export const tsoHostHeaderImg = tsoHostHeader;
 
 export const workImages = [
     { src: workALLpaQ, caption: "ALLpaQ"},
@@ -45,11 +51,13 @@ export const workImages = [
     { src: workCMA, caption: "CMA"},
     { src: workFundomundo, caption: "Fundomundo"},
     { src: workTWE, caption: "The Women's Exchange"},
-    { src: workAPE, caption: "APE"}
+    { src: workAPE, caption: "APE"},
+    { src: workFCAS, caption: "FCAS"}
 ];
 
 export const APEGroupBottomImg = APEGroupBottom;
 export const APEGroupLongImg = APEGroupLong;
+export const APEHeaderImg = APEHeader;
 
 export const CMAAmazonImg = CMAAmazon;
 export const CMAArcadeImg = CMAArcade;
@@ -67,8 +75,10 @@ export const FundoLongGroupImg = FundoLongGroup;
 export const FundoMobileGroupImg = FundoMobileGroup;
 export const FundoOpenLaptopImg = FundoOpenLaptop;
 export const FundoLaptopImg = FundoLaptop;
+export const FundoHeaderImg = FundoHeader;
 
 export const TWEGroupImg = TWEGroup;
 export const TWELaptopImg = TWELaptop;
+export const TWEHeaderImg = TWEHeader;
 
 export const homeLegoTowerImg = homeLegoTower;

@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.TWEHeader {
+    width: 100vw !important;
+}
+
 .TWEInfo {
     display: grid;
     gap: 10vw;

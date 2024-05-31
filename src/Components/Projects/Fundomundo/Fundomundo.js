@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./Fundomundo.module.css";
 import Footer from "../../Footer/Footer";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
-import { FundoDesktopGroupImg, FundoLaptopImg, FundoLongGroupImg, FundoMobileGroupImg, FundoOpenLaptopImg } from "../../../util/images";
+import { FundoDesktopGroupImg, FundoLaptopImg, FundoLongGroupImg, FundoMobileGroupImg, FundoOpenLaptopImg, FundoHeaderImg } from "../../../util/images";
 
 export default function Fundomundo( { mode, setMode }) {
 
@@ -12,9 +12,10 @@ export default function Fundomundo( { mode, setMode }) {
     useEffect(() => {
         setMode("light");
     },[setMode])
-
+ 
     return (
         <section className={styles.container}>
+            <img className={styles.fundomundoHeader} src={FundoHeaderImg} alt="Laptop displaying Fundomundo work" />
             <section className={styles.fundomundoInfo}>
                 <div className={styles.fundomundoHeading}>
                     <h1 className={textClass}>Fundomundo</h1>

@@ -106,6 +106,21 @@ export default function Work({ mode, setMode }) {
                         </div>
                     </figure>
                 </Link>
+                <Link to={ROUTES.APE()}>
+                    <figure className={styles.project}>
+                        <img src={workImages[6].src} alt="click to go to The Foundation to Combat Antisemitism page"  />
+                        <div className={styles.projectInfo} style={{boxShadow: "inset 1000px 1000px #0D0D0D70"}}>
+                            <figcaption className={`${styles.heading}`}>The Foundation to Combat Antisemitism</figcaption>
+                            <figcaption className={`${styles.caption}`}>
+                                <hr/>
+                                <ul>
+                                    <li>Web</li>
+                                    <li>Branding</li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                    </figure>
+                </Link>
             </section>
             <div style={{ position: "absolute", bottom: "0" }}>
                 <Footer mode={mode} />

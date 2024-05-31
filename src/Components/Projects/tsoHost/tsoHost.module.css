@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.tsoHostHeader {
+    width: 100vw !important;
+}
+
 .tsoHostInfo {
     display: grid;
     gap: 10vw;
