@@ -35,10 +35,23 @@ import tsoHostHeader from "../resources/tsoHost/TSOHeader.png";
 import FundoHeader from "../resources/fundomundo/FundomundoHeader.png";
 import TWEHeader from "../resources/TheWomensExchange/TWEHeader.png";
 import APEHeader from "../resources/APE/APEHeader.png";
+import ALLpaQEarth from "../resources/ALLpaQ/ALLpaQEarth.webp";
+import FCASHeader from "../resources/FCAS/FCASHeader.png";
+import FCASGrid1 from "../resources/FCAS/FCAS Grid 1.png";
+import FCASGrid2 from "../resources/FCAS/FCAS Grid 2.png";
+import FCASGrid3 from "../resources/FCAS/FCAS Grid 3.png";
+import FCASGridLong from "../resources/FCAS/FCAS Grid Long.png";
+import FCASDesktop from "../resources/FCAS/FCAS Desktop.png";
+import FCASMobile from "../resources/FCAS/FCAS Mobile.png";
+import FCASFigma from "../resources/FCAS/FCAS Figma.png";
+import FCASSquare from "../resources/FCAS/FCAS Square.png";
+import FCASQuote from "../resources/FCAS/FCAS Quote.png";
+import FCASLaptop from "../resources/FCAS/FCAS Laptop.png";
 
 export const ALLpaQLaptopImg = ALLpaQLaptop01;
 export const ALLpaQ3dMockupRocksImg = ALLpaQ3dMockupRocks;
 export const ALLpaQLongImageImg = ALLpaQLongImage;
+export const ALLpaQEarthImg = ALLpaQEarth;
 
 export const tsoHostDisplayAdsImg = tsoHostDisplayAds;
 export const tsoHostNewspaperImg = tsoHostNewspaper;
@@ -80,5 +93,17 @@ export const FundoHeaderImg = FundoHeader;
 export const TWEGroupImg = TWEGroup;
 export const TWELaptopImg = TWELaptop;
 export const TWEHeaderImg = TWEHeader;
+
+export const FCASHeaderImg = FCASHeader;
+export const FCASGrid1Img = FCASGrid1;
+export const FCASGrid2Img = FCASGrid2;
+export const FCASGrid3Img = FCASGrid3;
+export const FCASGridLongImg = FCASGridLong;
+export const FCASDesktopImg = FCASDesktop;
+export const FCASMobileImg = FCASMobile;
+export const FCASFigmaImg = FCASFigma;
+export const FCASSquareImg = FCASSquare;
+export const FCASQuoteImg = FCASQuote;
+export const FCASLaptopImg = FCASLaptop;
 
 export const homeLegoTowerImg = homeLegoTower;

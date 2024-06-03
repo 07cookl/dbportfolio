@@ -16,6 +16,7 @@ import CMA from './Components/Projects/CMA/CMA';
 import Fundomundo from './Components/Projects/Fundomundo/Fundomundo';
 import TheWomensExchange from './Components/Projects/The Women\'s Exchange/TWE';
 import APE from './Components/Projects/APE/APE';
+import FCAS from './Components/Projects/FCAS/FCAS';
 
 export default function App() {
   const [mode, setMode] = useState('');
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="work/fundomundo" element={<Fundomundo mode={mode} setMode={setMode}/>}/>
           <Route path="work/TheWomensExchange" element={<TheWomensExchange mode={mode} setMode={setMode}/>}/>
           <Route path="work/APE" element={<APE mode={mode} setMode={setMode}/>}/>
+          <Route path="work/FCAS" element={<FCAS mode={mode} setMode={setMode}/>}/>
           <Route path="contact" element={<Contact mode={mode} setMode={setMode}/>}/>
         </Route>
       </Routes>

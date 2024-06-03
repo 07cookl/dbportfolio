@@ -106,7 +106,7 @@ export default function Work({ mode, setMode }) {
                         </div>
                     </figure>
                 </Link>
-                <Link to={ROUTES.APE()}>
+                <Link to={ROUTES.FCAS()}>
                     <figure className={styles.project}>
                         <img src={workImages[6].src} alt="click to go to The Foundation to Combat Antisemitism page"  />
                         <div className={styles.projectInfo} style={{boxShadow: "inset 1000px 1000px #0D0D0D70"}}>
