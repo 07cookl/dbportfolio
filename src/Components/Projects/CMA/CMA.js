@@ -1,14 +1,12 @@
 import React, { useEffect } from "react";
 import styles from "./CMA.module.css";
-import Footer from "../../Footer/Footer";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
-import { CMAAmazonImg, CMAArcadeImg, CMAGroupLongImg, CMANikeImg, CMANineGridImg, CMAPinkImg, CMAToastImg, CMATwoLaptopsImg, CMAWavesImg, CMALaptopHeroImg } from "../../../util/images";
+import { CMAAmazonImg, CMAArcadeImg, CMAGroupLongImg, CMANikeImg, CMANineGridImg, CMAPinkImg, CMAToastImg, CMATwoLaptopsImg, CMAWavesImg, CMAHeaderImg } from "../../../util/images";
 import CMAPicadilly from "../../../resources/CMA/PicadillyCircusMockup.mp4";
 import CMANeon from "../../../resources/CMA/NeonGlassesLoop.mp4";
 import CMAElectricShock from "../../../resources/CMA/CMA_Electric Shock.mp4";
 import CMAGlass from "../../../resources/CMA/Glass-CMA.mp4";
 import CMARetroTV from "../../../resources/CMA/CMA-retro-tv-services-hero.mp4";
-import heroImage from "../../../resources/Home/HeroImage.png";
 
 export default function CMA({ mode, setMode }) {
 
@@ -21,10 +19,7 @@ export default function CMA({ mode, setMode }) {
 
     return (
         <section className={styles.container}>
-            <div className={styles.CMAHero}>
-                <img src={heroImage} alt="" />
-                <img src={CMALaptopHeroImg} alt="" />
-            </div>
+            <img className={styles.CMAHeader} src={CMAHeaderImg} alt="Laptop displaying CMA work" />
             <section className={styles.CMAInfo}>
                 <div className={styles.CMAHeading}>
                     <h1 className={textClass}>CMA</h1>
@@ -57,7 +52,6 @@ export default function CMA({ mode, setMode }) {
                 <div><img src={CMANikeImg} alt=""/></div>
             </div>
             <video src={CMARetroTV} autoPlay muted loop />
-            <Footer mode={mode} />
             <ScrollToTopBtn mode={mode} />
         </section>    
     )

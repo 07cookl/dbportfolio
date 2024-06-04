@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import styles from "./About.module.css";
-import Footer from "../Footer/Footer";
 import aboutVideo from "../../resources/About/aboutAndContactPage.mp4";
 import ScrollToTopBtn from "../../util/scrollToTopBtn";
 
@@ -39,9 +38,6 @@ export default function About({ mode, setMode }) {
             </div>
             <video className={styles.palletteImage} src={aboutVideo} autoPlay muted loop />
             <ScrollToTopBtn mode={mode} />
-            <div style={{ position: "absolute", bottom: "0" }}>
-                <Footer mode={mode} />
-            </div>
         </section>
     )
 };

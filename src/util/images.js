@@ -18,7 +18,6 @@ import CMANike from "../resources/CMA/nikeAirMaccies-cmaLogo.png";
 import CMAPink from "../resources/CMA/unique 1.png";
 import CMAWaves from "../resources/CMA/waves.png";
 import CMANineGrid from "../resources/CMA/CMANineGrid.png";
-import CMALaptopHero from "../resources/CMA/CMALaptopHero.png";
 import CMATwoLaptops from "../resources/CMA/CmaTwoLaptops.png";
 import CMAToast from "../resources/CMA/CMA_GrimsbyBornAndToast.png";
 import CMAGroupLong from "../resources/CMA/CMAGroupLong.png";
@@ -47,6 +46,7 @@ import FCASFigma from "../resources/FCAS/FCAS Figma.png";
 import FCASSquare from "../resources/FCAS/FCAS Square.png";
 import FCASQuote from "../resources/FCAS/FCAS Quote.png";
 import FCASLaptop from "../resources/FCAS/FCAS Laptop.png";
+import CMAHeader from "../resources/CMA/CMAHeader.png";
 
 export const ALLpaQLaptopImg = ALLpaQLaptop01;
 export const ALLpaQ3dMockupRocksImg = ALLpaQ3dMockupRocks;
@@ -78,10 +78,10 @@ export const CMANikeImg = CMANike;
 export const CMAPinkImg = CMAPink;
 export const CMAWavesImg = CMAWaves;
 export const CMANineGridImg = CMANineGrid;
-export const CMALaptopHeroImg = CMALaptopHero;
 export const CMATwoLaptopsImg = CMATwoLaptops;
 export const CMAGroupLongImg = CMAGroupLong;
 export const CMAToastImg = CMAToast;
+export const CMAHeaderImg = CMAHeader;
 
 export const FundoDesktopGroupImg = FundoDesktopGroup;
 export const FundoLongGroupImg = FundoLongGroup;

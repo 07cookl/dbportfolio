@@ -4,7 +4,6 @@ import { tsoHostDisplayAdsImg, tsoHostNewspaperImg, tsoHostCarouselGif } from ".
 import tsoHostSubwayBillboard from "../../../resources/tsoHost/Subway Billboard Mockup - Copy.mp4";
 import tsoHostDEPMockup from "../../../resources/tsoHost/tsoHOST_DEP_Mockup 2.mp4";
 import tsoHostHeaderImg from "../../../resources/tsoHost/TSOHeader.png";
-import Footer from "../../Footer/Footer";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
 
 export default function TsoHost({ mode, setMode }) {
@@ -36,7 +35,6 @@ export default function TsoHost({ mode, setMode }) {
             <img src={tsoHostCarouselGif} alt="Carousel of tsoHost work" />
             <img src={tsoHostDisplayAdsImg} style={{ position: "relative", right: "-250px", maxWidth: "120vw" }} alt="tsoHost display ads on laptop" />
             <video src={tsoHostDEPMockup} autoPlay loop muted />
-            <Footer mode={mode}/>
             <ScrollToTopBtn mode={mode} />
         </section>
     )

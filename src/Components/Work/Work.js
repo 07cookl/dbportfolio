@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import styles from "./Work.module.css";
 import { Link } from "react-router-dom";
 import ROUTES from "../../app/routes";
-import Footer from "../Footer/Footer";
 import { workImages } from "../../util/images";
 import ScrollToTopBtn from "../../util/scrollToTopBtn";
 
@@ -122,9 +121,6 @@ export default function Work({ mode, setMode }) {
                     </figure>
                 </Link>
             </section>
-            <div style={{ position: "absolute", bottom: "0" }}>
-                <Footer mode={mode} />
-            </div>
             <ScrollToTopBtn mode={mode} />
         </section>
     )

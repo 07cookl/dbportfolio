@@ -1,14 +1,16 @@
 import React from "react";
 import { Outlet, NavLink } from "react-router-dom";
 import ROUTES from "./routes";
+import Footer from "../Components/Footer/Footer";
 
 
 export default function AppLayout({ mode }) {
 
-    const linkClass = mode === "light" ? "darkLink" : "lightLink"
+    const linkClass = mode === "light" ? "darkLink" : "lightLink";
 
     return (
-        <div id="navBar" className={`${mode} bodyContainer`}>
+        <>
+        <div id="navBar" className={`${mode} bodyContainer`} style={{minHeight: `94vh`}}>
             <nav className={mode}>
                 <ul>
                 <li>
@@ -35,5 +37,9 @@ export default function AppLayout({ mode }) {
             </nav>
             <Outlet/>
         </div>
+        <div className={mode}>
+            <Footer mode={mode} />
+        </div>
+        </>
     );
 }

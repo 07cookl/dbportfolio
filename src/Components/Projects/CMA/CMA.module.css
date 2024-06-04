@@ -5,24 +5,9 @@
     align-items: center;
 }
 
-.CMAHero {
-    width: 100vw;
-    height: 60vw;
-    overflow: hidden;
-}
-
-.CMAHero img:first-child {
-    width: 75%;
-    position: relative;
-    left: 25%;
-    top: 0%;
-}
-
-.CMAHero img:last-child {
-    position: relative;
-    top: -65%;
-    left: 0px;
-    width: 65%;
+.CMAHeader {
+    width: 135vw !important;
+    margin-right: 35vw !important;
 }
 
 .CMAInfo {

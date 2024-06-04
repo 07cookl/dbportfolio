@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import styles from "./FCAS.module.css";
-import Footer from "../../Footer/Footer";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
 import { FCASDesktopImg, 
     FCASFigmaImg, 
@@ -54,7 +53,6 @@ export default function FCAS({ mode, setMode }) {
             </div>
             <img src={FCASFigmaImg} alt="Example of Figma design for FCAS" />
             <img src={FCASLaptopImg} alt="Example of FCAS work on laptop" />
-            <Footer mode={mode} />
             <ScrollToTopBtn mode={mode} />
         </section>    
         )
