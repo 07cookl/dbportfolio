@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, NavLink } from "react-router-dom";
+import { Outlet, NavLink, useLocation } from "react-router-dom";
 import ROUTES from "./routes";
 import Footer from "../Components/Footer/Footer";
 
@@ -7,6 +7,7 @@ import Footer from "../Components/Footer/Footer";
 export default function AppLayout({ mode }) {
 
     const linkClass = mode === "light" ? "darkLink" : "lightLink";
+    const location = useLocation();
 
     return (
         <>
@@ -37,9 +38,13 @@ export default function AppLayout({ mode }) {
             </nav>
             <Outlet/>
         </div>
-        <div className={mode}>
-            <Footer mode={mode} />
-        </div>
+        {location.pathname === "/" ?
+            <></>
+            :
+            <div className={`${mode} footer`}>
+                <Footer mode={mode} />
+            </div>
+        }
         </>
     );
 }

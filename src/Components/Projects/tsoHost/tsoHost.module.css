@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5vw;
 }
 
 .tsoHostHeader {
@@ -33,14 +34,34 @@
 }
 
 .tsoHostOverview h3 {
-    font-size: 1.7vw;
+    font-size: 18px;
     font-weight: 700;
     margin-top: 12px;
+    @media only screen and (min-width: 1441px) {
+        & {
+            font-size: 32px;
+        }
+    };
+    @media only screen and (min-width: 1750px) {
+        & {
+            font-size: 48px;
+        }
+    }
 }
 
 .tsoHostOverview p {
-    font-size: 1.7vw;
+    font-size: 18px;
     font-weight: 400;
+    @media only screen and (min-width: 1441px) {
+        & {
+            font-size: 32px;
+        }
+    };
+    @media only screen and (min-width: 1750px) {
+        & {
+            font-size: 48px;
+        }
+    }
 }
 
 .tsoHostOverview a {

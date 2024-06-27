@@ -232,8 +232,18 @@
     color: #0D0D0D;
     font-family: 'Clash Display', sans-serif;
     width: 100vw;
-    font-size: 1.9vw;
+    font-size: 18px;
     padding: 15% 0;
+    @media only screen and (min-width: 1441px) {
+        & {
+            font-size: 32px;
+        }
+    };
+    @media only screen and (min-width: 1750px) {
+        & {
+            font-size: 48px;
+        }
+    }
 }
 
 .CMAQuote p, .nameRole span, .CMAQuote p strong {
