@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./Home.module.css";
 import { homeLegoTowerImg } from "../../util/images";
 import homeCompilation from "../../resources/Home/HomepageCompilation.mp4";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import ScrollToTopBtn from "../../util/scrollToTopBtn";
 import ALLpaQVideo from "../../resources/ALLpaQ/ALLpaQ-404-service-container-page-showcase-1.mp4";
 import CMAVideo from "../../resources/CMA/PicadillyCircusMockup.mp4";
@@ -11,6 +11,16 @@ import tsoHostVideo from "../../resources/tsoHost/tsoHOST_DEP_Mockup 2.mp4";
 export default function Home({ mode, setMode }) {
     const navigate = useNavigate();
     const element = document.getElementById("navBar");
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.pathname === "/") {
+            document.documentElement.scrollTo({
+                top: 0,
+                left: 0,
+            });
+        }
+    }, [location]);
 
     useEffect(() => {
         setMode("dark");

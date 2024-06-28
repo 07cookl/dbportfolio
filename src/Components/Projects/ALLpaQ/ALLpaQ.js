@@ -2,8 +2,10 @@ import React, { useEffect } from "react";
 import { ALLpaQLaptopImg, ALLpaQLongImageImg, ALLpaQ3dMockupRocksImg, ALLpaQEarthImg } from "../../../util/images";
 import ALLpaQWebsiteCaseStudyHeader from "../../../resources/ALLpaQ/ALLpaQWebsite-CaseStudyHeader.mp4";
 import ALLpaQ404 from "../../../resources/ALLpaQ/ALLpaQ-404.webm";
+import ALLpaQ404Safari from "../../../resources/ALLpaQ/ALLpaQ-404-safari.mp4";
 import styles from "./ALLpaQ.module.css";
 import ScrollToTopBtn from "../../../util/scrollToTopBtn";
+import { isSafari } from "react-device-detect";
 
 export default function ALLpaQ({ mode, setMode }) {
 
@@ -35,7 +37,7 @@ export default function ALLpaQ({ mode, setMode }) {
             <img className={styles.rocksImg} src={ALLpaQ3dMockupRocksImg} alt="An example of ALLpaQ work" />
             <div className={styles.ALLpaQ404}>
                 <img src={ALLpaQEarthImg} alt="Earth background" />
-                <video src={ALLpaQ404} autoPlay loop muted />
+                <video src={isSafari ? ALLpaQ404Safari : ALLpaQ404} autoPlay loop muted />
             </div>
             <img src={ALLpaQLongImageImg} alt="Examples of ALLpaQ work" />
             <img src={ALLpaQLaptopImg} alt="Laptop displaying ALLpaQ work" />

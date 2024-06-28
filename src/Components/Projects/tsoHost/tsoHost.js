@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import styles from "./tsoHost.module.css";
+import styles from "./TsoHost.module.css";
 import { tsoHostDisplayAdsImg, tsoHostNewspaperImg, tsoHostCarouselGif } from "../../../util/images";
 import tsoHostSubwayBillboard from "../../../resources/tsoHost/Subway Billboard Mockup - Copy.mp4";
 import tsoHostDEPMockup from "../../../resources/tsoHost/tsoHOST_DEP_Mockup 2.mp4";

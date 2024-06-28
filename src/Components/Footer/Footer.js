@@ -11,20 +11,9 @@ export default function Footer(props) {
     const homeImage = props.mode === "light" ? homeImageDark : homeImageLight;
     const modeClass = props.mode === "light" ? "footerDark" : "footerLight";
 
-    // const element = document.getElementById("navBar");
-
     const handleClick = (e) => {
         e.preventDefault();
         navigate("/");
-        // element.scrollIntoView({
-        //     alignToTop: true,
-        //     behavior: "smooth"
-        // });
-        document.documentElement.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: "smooth",
-        });
     }
 
     return (

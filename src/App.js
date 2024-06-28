@@ -11,7 +11,7 @@ import Work from "./Components/Work/Work";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import ALLpaQ from './Components/Projects/ALLpaQ/ALLpaQ';
-import TsoHost from './Components/Projects/tsoHost/tsoHost';
+import TsoHost from './Components/Projects/tsoHost/TsoHost';
 import CMA from './Components/Projects/CMA/CMA';
 import Fundomundo from './Components/Projects/Fundomundo/Fundomundo';
 import TheWomensExchange from './Components/Projects/The Women\'s Exchange/TWE';
